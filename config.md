@@ -7,7 +7,7 @@ The website_* must be defined for the RSS to work
 @def website_title = "Ludovico's space"
 @def website_descr = "Math and Julia and everything in between."
 <<<<<<< HEAD
-@def website_url   = "ludoro.github.io/ludoro.github.io"
+@def website_url   = "ludoro.github.io"
 =======
 >>>>>>> 38cbddd95921cd394486c8c516d924e1ce7ea6ee
 
