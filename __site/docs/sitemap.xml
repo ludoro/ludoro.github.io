@@ -67,4 +67,70 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/404/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/cs/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/contact/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/blog/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/cs/basicquestions/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/Math/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/posts/helloworld/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/CV/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/books/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/cs/fizzbuzz/index/</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
 </urlset>
