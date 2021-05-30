@@ -8,7 +8,6 @@ The website_* must be defined for the RSS to work
 @def website_descr = "Math and Julia and everything in between."
 @def website_url   = "ludoro.github.io"
 
-
 @def author = "Ludovico Bessi"
 
 @def mintoclevel = 2
