@@ -13,4 +13,4 @@ interviews.
 ## Data structures and algorithms.
 
 
-⭐ [Basic questions](/CS/basicquestions/index.html)
+⭐ [Basic questions](/computerscience/basicquestions/index.html)
