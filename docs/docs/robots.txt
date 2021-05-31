@@ -1,4 +1,0 @@
-Sitemap: ludoro.github.io/ludoro.github.io/sitemap.xml
-
-User-agent: *
-Disallow:

@@ -1,1 +1,0 @@
-Even if GitHub says that the deployment fails, actually it works. Just need to rename __site to docs 
