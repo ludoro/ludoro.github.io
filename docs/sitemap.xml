@@ -56,12 +56,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/math/brainteasers/index.html</loc>
-    <lastmod>2021-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>ludoro.github.io/ludoro.github.io/404/index.html</loc>
     <lastmod>2021-05-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -92,14 +86,14 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/binarysearch/index.html</loc>
-    <lastmod>2021-06-09</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/mathematics/stat/index.html</loc>
+    <lastmod>2021-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/math/stat/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/algos/binarysearch/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -158,6 +152,18 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>ludoro.github.io/ludoro.github.io/mathematics/brainteasers/index.html</loc>
+    <lastmod>2021-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/mathematics/prob/index.html</loc>
+    <lastmod>2021-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>ludoro.github.io/ludoro.github.io/algos/divideandconquer/index.html</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -182,68 +188,8 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/math/prob/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>ludoro.github.io/ludoro.github.io/posts/helloworld/index.html</loc>
     <lastmod>2021-05-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/blog/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/404/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/Math/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/books/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/Algos/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/CV/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/contact/index/</loc>
-    <lastmod>2021-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/posts/helloworld/index/</loc>
-    <lastmod>2021-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

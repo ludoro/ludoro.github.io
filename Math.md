@@ -42,13 +42,13 @@ alongside some questions to showcase those tricks.
 
 Total number of problems: 6.
 ### Brain teasers
-⭐ [Brainteasers](/math/brainteasers/index.html)
+⭐ [Brainteasers](/mathematics/brainteasers/index.html)
 
 ### Probability
-⭐ [Probability](/math/prob/index.html)
+⭐ [Probability](/mathematics/prob/index.html)
 
 ### Statistics
-⭐ [Statistics](/math/stat/index.html)
+⭐ [Statistics](/mathematics/stat/index.html)
 
 
 Moving on to some notes on favorite topics of mine:
