@@ -40,7 +40,7 @@ different things. Still, the more problems solved, the better!
 With that in mind, below I compiled the most useful tricks one needs to know,
 alongside some questions to showcase those tricks.
 
-Total number of problems: 6.
+Total number of problems: 54.
 ### Brain teasers
 ⭐ [Brainteasers](/mathematics/brainteasers/index.html)
 
