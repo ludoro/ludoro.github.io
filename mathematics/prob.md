@@ -55,7 +55,7 @@ At this point, we can check with the z-score: $(600 - 500)/16 = 6.25$ This is 6 
 You have a stick of length $1$. You cut it uniformly at point X, Y.
 What is the probability that the three parts form a triangle?
 
-**Solution**
+**Solution 1**
 
 The key is to remember that three segments form a triangle if every segment is less than the sum of the other two.
 It's clear to see that if the two points are on the same side of the middle
@@ -69,7 +69,14 @@ I internalize this with the following reasoning. Imagine this setting:
 if point X is uniform betweeen 0 and 0.5, the probability that Y uniform between 0 and 0.5
 is less than X is indeed $\frac{1}{2}$, because It  is like asking $\mathbb{P}(Y < X)$.
 
+**Solution 2**
 
+- $x + (y-x) > 1 - y \to y > \frac{1}{2}$
+- $x + (1-y) > y - x \to y < \frac{1}{2} + x$
+- $(y-x) + (1-y) > x \to x < \frac{1}{2}$
+
+Plot this region in a xy cartesian plot, and color the region represented by the inequality.
+The total area is $\frac{1}{4}$.
 ## 5. Flip until two heads in a row.
 
 Suppose you are given a coin. What is the expected number of flips needed to get
@@ -366,6 +373,11 @@ A single amoeba in the beginning. With equal probability:
 
 What is the probability of exctintion?
 
+**Solution**
+
+Let $E$ be the event of the population going exctint. Condition on what happens
+a time step later. Let p = P("all dies")
+
 $p = \frac{1}{4}(1 + p + p^2 + p^3)$
 
 ## 26. Subsequence chance
@@ -473,3 +485,179 @@ Then, the solution is:
 $ 2 \int_0^1 x(1-x)dx = \frac{1}{3}$
 
 Inside the integral, we have: C between A and B and D not between A and B. Times two because we could also use D instead of C.
+
+## 35. Card game
+
+You pick a card and the dealer picks a card without replacement. If your card is larger you win, otherwise you lose.
+
+What is your probability of winning?
+
+
+**Solution**
+Let A be the event of winning, and map integers to card from lower to higher.
+Then:
+$\mathbb{P}(A) = \frac{4}{52} * \sum_{i=1}^14 \frac{4*(i-1)}{52}$
+
+## 36. Points on same semicircle
+
+You have $N$ points. What's the probability that they all lie in the same semicircle?
+
+**Solution**
+
+Pick randomly one point, call it $A$. The probability that all the other points are in the same semicircle is: $\frac{1}{2^{N-1}}$
+The first point can be picked randomly between all $N$ points, so the final answer is:
+$ N * \frac{1}{2^{N-1}}$
+
+## 37. Birthday problem
+How many people do we need to make the probability that two people have the same
+birthday greater than $\frac{1}{2}$?
+
+**Solution**
+
+$\frac{365*364*\dots*(365-n+1)}{365^n} < \frac{1}{2}$
+
+## 38. All girls world
+50% chance of having a girl. A couple tries children until they have a girl and then stop.
+
+What eventually happens to the ratio of boys and girl?
+
+**Solution**
+Stable 50% for obvious reasons, don't get fooled!
+
+## 39. Monty hall problem
+3 doors, 1 car two goats. You pick one door at random. They show one door: a goat!
+Do you change door?
+
+**Solution**
+You win by switching if and only if you picked a goat at the beginning: this happens with probability $\frac{2}{3}$.
+
+## 40. Coin toss game
+
+Two players play a game. As soon as the sequence HT happens, the player who flips
+T wins.
+What is the probability that the first player wins?
+
+**Solution**
+
+Let's condition on the first toss:
+$\mathbb{P}(A) = \frac{1}{2}*\mathbb{P}(A \vert H) + \frac{1}{2}\mathbb{P}(A \vert T)$
+
+We know that $\mathbb{P}(A\vert T) = \mathbb{P}(B) = 1 - \mathbb{P}(A)$
+Because if we toss a T, it's like we become player B.
+
+The case with head can be treated conditioning on the toss of B:
+
+$ P(A\vert H) = \frac{1}{2}\mathbb{P}(A \vert HH) + \frac{1}{2}\mathbb{P}(A \vert HT)$
+
+We know that by definition $\mathbb{P}(A \vert HT) = 0$ because this just means that B won.
+If instead B rolls an H, we have: $\mathbb{P}(A \vert HH) = \mathbb{P}(B \vert H)= 1 - \mathbb{P}(A \vert H)$.
+
+And the final result is: $\mathbb{P}(A) = \frac{4}{9}$.
+
+## 41. Russian roulette
+
+# A
+A bullet is put into a 6 chamber revolver. The barrel is randomly spun.
+Two players take turn pulling the trigger.
+You can choose to go first or go second. What do you choose?
+
+
+**Solution**
+
+The player going first dies if bullet is in position 1,3,5. The player going second dies
+if bullet is in position 2,4,6. Exact same probabilities.
+
+
+# B
+Exact same setting as **A**, only that the barrel is spun after every shot.
+
+**Solution**
+
+Say that the first player dies with probability $p$.
+It can be written as: $p = \frac{1}{6}*1 + \frac{5}{6}*(1-p)$
+Meaning: you either die instantly with probability $\frac{1}{6}$ or die if the other player does not die.
+
+# C
+If instead of one bullet, two bullets are randomly put in the chamber. Your opponet played first and he is alive after the first trigger.
+You are given the option to spin the barrel. Do you do it?
+
+**Solution**
+Well, if you spin the barrel the probability of losing is $\frac{2}{6}$. If you don't spin, then it becomes $\frac{2}{5}$
+
+# D
+
+What if two bullets are randomly put in two consecutive positions?
+If your opponent survived his first round, should you spin the barrel?
+
+**Solution**
+
+The probability that the next chamber contains a bullet is $\frac{1}{4}$, so chance of survival is $\frac{3}{4}$.
+If you spin the barrel, change of survival is $1 - \frac{2}{6} = \frac{2}{3}$.
+
+## 42. Minimize variance of the sum
+
+Assume $X \sim \mathcal{N}(\mu_X,\sigma^2_X)$, $Y \sim \mathcal{N}(\mu_Y,\sigma^2_Y)$.
+$Corr(X,Y) = \rho$
+How do you choose $a,b$ such that the variance of $S = aX + bY$ is minimized?
+Constraint: $a+b=1$, $0 \leq a \leq 1$ and $0 \leq a \leq 1$.
+
+**Solution**
+Using the fact that $b = 1 - a$, the variance of S is:
+$ V(S) = a^2 \sigma_X^2 + (1-a)^2\sigma_Y^2 + a(1-a)\sigma_X^2*\sigma_Y^2$.
+
+Find $a^*$ using $\frac{\partial V(S)}{\partial a} = 0$ and checking that:
+$\frac{\partial V^2(S)}{\partial a} > 0$ at $a = a^*$
+
+## 43. Product of uniforms
+
+Say you have two random variable $X,Y \sim Unif(0,1)$, independent.
+What is the probability that their product is greater than $\frac{1}{2}$?
+
+**Solution**
+
+We calculate the area under the curve $y = \frac{1}{2x}$ contained in the square of length 1:
+$ 1*\frac{1}{2} + \int_{\frac{1}{2}}^1 \frac{1}{2x}dx$
+
+## 44. Price simple dice game
+A player tosses a dice only one time. The payoff is $1\$$ for each dot on the top face.
+How much should you price this game?
+
+**Solution**
+
+The expected vaue of the game is just:
+$\mathbb{E}[G] = \frac{1}{6}\sum_{i=1}^6 i = 3.5$
+
+## 45. Coin game 4 vs 5 coins
+
+Player A tosses 4 coins. Player B tosses 5 coins. Player B wins if he has strictly
+more tosses.
+
+**Solution**
+
+It is just $\frac{1}{2}$. The first 4 coins neutralize each other and then just the last one decides.
+
+## 46. Dice game strategy
+A dice is being rolled no more than three times. You win the 1€ for each dot on the dice.
+You can stop after every roll, if you don't you just win the third roll.
+What is your strategy?
+
+**Solution**
+If you get a value of $5,6$, you stop the game at the first roll. If you get a value of $4,5,6$ you stop at roll 2.
+
+## 47. 100 marbles and two jars.
+
+You have $100$ marbles: $50$ black and $50$ white. How do you put them into two jars
+ to maximize the probability to randomly draw a white marble if you are blindfolded?
+
+ **Solution**
+
+ Put one white marble in one jar, the rest in the other jar.
+
+
+## 48. $\mathbb{E}[e^X]$
+Suppose you have $X \sim \mathcal{N}(0,\sigma^2)$.
+What is $\mathbb{E}[e^X]$?
+
+**Solution**
+
+Complete the square in the integral calculation.

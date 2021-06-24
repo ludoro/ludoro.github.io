@@ -297,7 +297,7 @@ So the final answer is just:
 
 $\sum_{i=1}^n \mathbb{E}[X_i] = n*(1-(\frac{n-1}{n})^n)*1$
 
-## Many tosses
+## 21. Many tosses
 
 Say you toss a coin $n$ times. With $n$ very large.
 How many sequences of 5 heads followed by 5 tails do you expect to see?
