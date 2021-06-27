@@ -661,3 +661,108 @@ What is $\mathbb{E}[e^X]$?
 **Solution**
 
 Complete the square in the integral calculation.
+
+## 49. Larger dice
+What is the probability that one roll of a dice is larger than the other?
+
+**Solution**
+
+Draw a matrix for all possible combinations.
+Counting the right cells: $\frac{15}{35}$.
+
+## 50. Momentum deriving
+
+Find $\mathbb{E}[X^4]$ where $X \sim \mathcal{N}(0,\sigma^2)$
+
+**Solution**
+
+Either integrate by part of use the moment generating function:
+$ M(t) = e^{\mu t} * e^{\frac{1}{2} \sigma^2 t^2}$
+Knowing that: $\mathbb{E}[X^n] = M_X^{(n)}(0)$
+
+## 51. XY distribution
+
+If $X \sim \mathcal{N}(0,1)$ and $Y = 1$ with probability $\frac{1}{2}$, $Y=-1$
+with probability $\frac{1}{2}$. What is the distribution of $Z=XY$?
+
+**Solution**
+
+$Z$ has the same distribution of $X$:
+
+$\mathbb{P}(Z=z) = \mathbb{P}(XY=z) = \mathbb{X=z}*\mathbb{P}(Y=1) + \mathbb{X=-z}*\mathbb{P}(Y=-1) = \mathbb{P}(X=z)$
+
+## 52. Shredded cards
+
+Deck of $52$ cards. I shred 20 randomly, then you pick two random cards.
+What is the probability that they are both aces?
+
+**Solution**
+
+Shredding the car is not influencing the required probability, so the required
+answer is: $\frac{4}{52}*\frac{3}{51}$.
+
+## 53. Hard coin game of G-research.
+
+We have $4$ different games.
+
+- $G1$: one fair toss: Head you win 200, T you lose 100
+- $G2$: 100 fair toss,Head you win 2, T you lose 1
+- $G3$: Same as $G2$ but you start with $50$ and you must stop prematurely.
+- $G4$: 100 fair toss, you can bet an amount you choose from initial stake. You either win and double the bet or lose and lose the bet.
+
+1. What is the expected value of $G1$?
+2. What is the expected value of $G2$?
+3. Is it better to play $G3$ or $G2$?
+4. How should you play $G4$ in order to maximize: $\mathbb{E}[G_4]$ and $\mathbb{E}[\log{G_4+100}]$ given that we start with $100$?
+
+
+**Solution**
+
+$\mathbb{E}][G_1] = \frac{1}{2}*200 - \frac{1}{2}*100 = 50 = \mathbb{E}[G_2]$.
+Better $G_2$, less variance.
+
+$G3$ has additional constraint of potentially stopping and losing, so better $G_2$,
+even though the probability to go bankrupt is low.
+
+For the last question, suppose we always bet the maximum amount. On the first flip,
+we win $100 + 2*100 = 300$. If we win, we bet 300 and win $300 + 2*300 = 900$.
+The total profit is $100 * 3^{100} - 100$. The first $100$ is factored out and the
+$3^{100}$ is by induction. This happens with probability $\frac{1}{2^{100}}$. Otherwise, we lose $100$.
+So:
+
+$\mathbb{E}[G_4] = \frac{1}{2^{100}}*(100 * 3^{100} - 100) - (1-\frac{1}{2^{100}})*100 = \text{a lot}$
+
+To calculate $\mathbb{E}[\log{G_4+100}]$, suppose we flip one coin, start with 1 and bet $x$.
+The expectation is: $\frac{1}{2}(\log(1-x)) + \frac{1}{2}(\log(1+2x))$. Set the derivative to $0$ and solve for $x$, we have $x=\frac{1}{4}$.
+
+## 54. Dice game winning with $6$.
+A and B are playing a game.  They take turn rolling a dice, whoever rolls a 6 wins.
+A starts.
+It turns out that B won. What is the probability that he won on his first roll?
+
+**Solution**
+
+This is a tricky question. The answer is *not* just $\frac{5}{6}*\frac{1}{6}$.
+This is the probability that $B$ wins on his first turn *period*. We need to account for the fact that we know $B$ won.
+That is, over all possible winning, we just need to take the probability of him winning on his first turn.
+We know that $P(A) = 1 - P(B)$.
+
+Also: $P(A) = \frac{1}{6} + \frac{5}{6}(1-P(A))$
+
+This means: $P(A) = \frac{6}{11}$ and $P(B) = \frac{5}{11}$
+Then, the required probability is: $\frac{5}{36}/\frac{5}{11}$ thanks to Bayes.
+
+## 55. $R(n)$
+
+Let R be a random number generator such that $R(n)$ return an integer in the range
+$0,1,\dots,n-1$ with uniform probability.
+You start from $x_0 = 10^{100}$ and consider the
+sequence $x_i = R(x_{i-1})$. Eventually the series will terminate at $x_s = 0$.
+
+What is $\mathbb{E}[s]$?
+
+**Solution**
+
+The recursion is: $E_k = \frac{1}{k}*1 + \frac{1}{k} \sum_{i=1}^{k-1} (E_i + 1)$.
+Meaning, with probability $\frac{1}{k}$ you stop, or with equal probabilities you
+do one roll more plus all the future rolls starting from that position. 

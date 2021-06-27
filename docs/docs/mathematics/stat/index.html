@@ -234,14 +234,18 @@
 <p>We are interested in \(\sum_{i=1}^n \mathbb{E}[X_i]\).</p>
 <p>\(\mathbb{E}[X_i] = (\frac{n-1}{n})^n*0 + (1-(\frac{n-1}{n})^n)*1\) So the final answer is just:</p>
 \(\sum_{i=1}^n \mathbb{E}[X_i] = n*(1-(\frac{n-1}{n})^n)*1\)
-<h2 id="many_tosses"><a href="#many_tosses" class="header-anchor">Many tosses</a></h2>
+<h2 id="ol_start21_many_tosses"><a href="#ol_start21_many_tosses" class="header-anchor"><ol start="21">
+<li><p>Many tosses</p>
+</li>
+</ol>
+</a></h2>
 <p>Say you toss a coin \(n\) times. With \(n\) very large. How many sequences of 5 heads followed by 5 tails do you expect to see?</p>
 <p><strong>Solution</strong> \(X_i = 1\) if \(i\) is starting point of the sequence.</p>
 <p>We want to find \(\mathbb{E}[\sum_{i=1}^n X_i ] =  \sum_{i=1}^n\mathbb{E}[X_i]\)</p>
 <p>Where \(\mathbb{E}[X_i] = (\frac{1}{2})^{10} * (n-10)\)</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 20, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: June 21, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

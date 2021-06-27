@@ -500,9 +500,93 @@
 <p>Suppose you have \(X \sim \mathcal{N}(0,\sigma^2)\). What is \(\mathbb{E}[e^X]\)?</p>
 <p><strong>Solution</strong></p>
 <p>Complete the square in the integral calculation.</p>
+<h2 id="ol_start49_larger_dice"><a href="#ol_start49_larger_dice" class="header-anchor"><ol start="49">
+<li><p>Larger dice</p>
+</li>
+</ol>
+</a></h2>
+<p>What is the probability that one roll of a dice is larger than the other?</p>
+<p><strong>Solution</strong></p>
+<p>Draw a matrix for all possible combinations. Counting the right cells: \(\frac{15}{35}\).</p>
+<h2 id="ol_start50_momentum_deriving"><a href="#ol_start50_momentum_deriving" class="header-anchor"><ol start="50">
+<li><p>Momentum deriving</p>
+</li>
+</ol>
+</a></h2>
+<p>Find \(\mathbb{E}[X^4]\) where \(X \sim \mathcal{N}(0,\sigma^2)\)</p>
+<p><strong>Solution</strong></p>
+<p>Either integrate by part of use the moment generating function: \( M(t) = e^{\mu t} * e^{\frac{1}{2} \sigma^2 t^2}\) Knowing that: \(\mathbb{E}[X^n] = M_X^{(n)}(0)\)</p>
+<h2 id="ol_start51_xy_distribution"><a href="#ol_start51_xy_distribution" class="header-anchor"><ol start="51">
+<li><p>XY distribution</p>
+</li>
+</ol>
+</a></h2>
+<p>If \(X \sim \mathcal{N}(0,1)\) and \(Y = 1\) with probability \(\frac{1}{2}\), \(Y=-1\) with probability \(\frac{1}{2}\). What is the distribution of \(Z=XY\)?</p>
+<p><strong>Solution</strong></p>
+<p>\(Z\) has the same distribution of \(X\):</p>
+\(\mathbb{P}(Z=z) = \mathbb{P}(XY=z) = \mathbb{X=z}*\mathbb{P}(Y=1) + \mathbb{X=-z}*\mathbb{P}(Y=-1) = \mathbb{P}(X=z)\)
+<h2 id="ol_start52_shredded_cards"><a href="#ol_start52_shredded_cards" class="header-anchor"><ol start="52">
+<li><p>Shredded cards</p>
+</li>
+</ol>
+</a></h2>
+<p>Deck of \(52\) cards. I shred 20 randomly, then you pick two random cards. What is the probability that they are both aces?</p>
+<p><strong>Solution</strong></p>
+<p>Shredding the car is not influencing the required probability, so the required answer is: \(\frac{4}{52}*\frac{3}{51}\).</p>
+<h2 id="ol_start53_hard_coin_game_of_g-research"><a href="#ol_start53_hard_coin_game_of_g-research" class="header-anchor"><ol start="53">
+<li><p>Hard coin game of G-research.</p>
+</li>
+</ol>
+</a></h2>
+<p>We have \(4\) different games.</p>
+<ul>
+<li><p>\(G1\): one fair toss: Head you win 200, T you lose 100</p>
+</li>
+<li><p>\(G2\): 100 fair toss,Head you win 2, T you lose 1</p>
+</li>
+<li><p>\(G3\): Same as \(G2\) but you start with \(50\) and you must stop prematurely.</p>
+</li>
+<li><p>\(G4\): 100 fair toss, you can bet an amount you choose from initial stake. You either win and double the bet or lose and lose the bet.</p>
+</li>
+</ul>
+<ol>
+<li><p>What is the expected value of \(G1\)?</p>
+</li>
+<li><p>What is the expected value of \(G2\)?</p>
+</li>
+<li><p>Is it better to play \(G3\) or \(G2\)?</p>
+</li>
+<li><p>How should you play \(G4\) in order to maximize: \(\mathbb{E}[G_4]\) and \(\mathbb{E}[\log{G_4+100}]\) given that we start with \(100\)?</p>
+</li>
+</ol>
+<p><strong>Solution</strong></p>
+<p>\(\mathbb{E}][G_1] = \frac{1}{2}*200 - \frac{1}{2}*100 = 50 = \mathbb{E}[G_2]\). Better \(G_2\), less variance.</p>
+<p>\(G3\) has additional constraint of potentially stopping and losing, so better \(G_2\), even though the probability to go bankrupt is low.</p>
+<p>For the last question, suppose we always bet the maximum amount. On the first flip, we win \(100 + 2*100 = 300\). If we win, we bet 300 and win \(300 + 2*300 = 900\). The total profit is \(100 * 3^{100} - 100\). The first \(100\) is factored out and the \(3^{100}\) is by induction. This happens with probability \(\frac{1}{2^{100}}\). Otherwise, we lose \(100\). So:</p>
+\(\mathbb{E}[G_4] = \frac{1}{2^{100}}*(100 * 3^{100} - 100) - (1-\frac{1}{2^{100}})*100 = \text{a lot}\)
+<p>To calculate \(\mathbb{E}[\log{G_4+100}]\), suppose we flip one coin, start with 1 and bet \(x\). The expectation is: \(\frac{1}{2}(\log(1-x)) + \frac{1}{2}(\log(1+2x))\). Set the derivative to \(0\) and solve for \(x\), we have \(x=\frac{1}{4}\).</p>
+<h2 id="ol_start54_dice_game_winning_with_6"><a href="#ol_start54_dice_game_winning_with_6" class="header-anchor"><ol start="54">
+<li><p>Dice game winning with \(6\).</p>
+</li>
+</ol>
+</a></h2>
+<p>A and B are playing a game.  They take turn rolling a dice, whoever rolls a 6 wins. A starts. It turns out that B won. What is the probability that he won on his first roll?</p>
+<p><strong>Solution</strong></p>
+<p>This is a tricky question. The answer is <em>not</em> just \(\frac{5}{6}*\frac{1}{6}\). This is the probability that \(B\) wins on his first turn <em>period</em>. We need to account for the fact that we know \(B\) won. That is, over all possible winning, we just need to take the probability of him winning on his first turn. We know that \(P(A) = 1 - P(B)\).</p>
+<p>Also: \(P(A) = \frac{1}{6} + \frac{5}{6}(1-P(A))\)</p>
+<p>This means: \(P(A) = \frac{6}{11}\) and \(P(B) = \frac{5}{11}\) Then, the required probability is: \(\frac{5}{36}/\frac{5}{11}\) thanks to Bayes.</p>
+<h2 id="ol_start55_rn"><a href="#ol_start55_rn" class="header-anchor"><ol start="55">
+<li><p>\(R(n)\)</p>
+</li>
+</ol>
+</a></h2>
+<p>Let R be a random number generator such that \(R(n)\) return an integer in the range \(0,1,\dots,n-1\) with uniform probability. You start from \(x_0 = 10^{100}\) and consider the sequence \(x_i = R(x_{i-1})\). Eventually the series will terminate at \(x_s = 0\).</p>
+<p>What is \(\mathbb{E}[s]\)?</p>
+<p><strong>Solution</strong></p>
+<p>The recursion is: \(E_k = \frac{1}{k}*1 + \frac{1}{k} \sum_{i=1}^{k-1} (E_i + 1)\). Meaning, with probability \(\frac{1}{k}\) you stop, or with equal probabilities you do one roll more plus all the future rolls starting from that position. </p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 24, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: June 27, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

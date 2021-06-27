@@ -197,3 +197,61 @@ What is the probability that at least one of them goes to the right room?
 The probability that at least one of them goes to the right room is equal to 1 - the
 probability that no one goes to the right room.
 Then, we have: $1 - \frac{n-1}{n}*\frac{n-2}{n-1}*\dots = 1 - \frac{(n-1)!}{n!}$
+
+## 16. Relationship between derivative and derivative of the inverse
+We have $g'(x)$. What can you say about $\frac{d}{dx} g^{-1}(x)$?
+
+**Solution**
+Start from $x=x$. Then:
+
+$g(g^{-1}(x)) = x$
+
+Taking derivative:
+
+$g'(g^{-1}(x))\frac{d}{dx}g^{-1}(x) = 1$
+
+Meaning:  $\frac{d}{dx}g^{-1}(x) = \frac{1}{g'(g^{-1}(x)}$
+
+## 17. Strange derivative
+
+What is $\frac{d}{dx}x^x$?
+
+**Solution**
+Write $x^x = e^{x \log x}$
+
+
+## 18. $e^\pi$ vs $\pi^e$?
+
+Which is larger between $e^\pi$ and $\pi^e$?
+
+**Solution**
+Turn this into comparing $\frac{\log e}{e}$ and $\frac{\log \pi}{\pi}$ and
+study the derivative.
+
+## 19. Romeo and Juliet
+
+Romeo and Juliet agree to meet between 8pm and 9pm. Each arrives at a random time and staits for $15$ minutes, then leaves.
+
+What is the probabilit that they meet?
+
+**Solution**
+
+Let r and g the arrival time in [0,1].
+We are asking: $\mathbb{P}(\vert x - y \vert < \frac{15}{60} = \frac{1}{4})$
+
+Drawing the area and calculating, gives the result of $\frac{7}{16}$.
+
+## 20. Playing with digits
+
+Consider all 100 digit numbers, those between 0 and $10^{100}-1$. For each number,
+take the product of non-zero digits and sum across all numbers. What's the last digit?
+
+**Solution**
+
+Let $S(n)$ be the specified sum up to $n$ digits.
+We have $S(1) = 46$.
+In general:
+
+$S(n+1) = S(n) + 1*S(n) + 2S(n) + \dots + 9S(n) = 46S(n)$.
+So we have: $S(n) = 46^{n}$
+Then, the question becomes: what is the last digit of $46^{100}$? All the power of a number ending in $6$ end in $6$.
