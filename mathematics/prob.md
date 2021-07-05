@@ -765,4 +765,198 @@ What is $\mathbb{E}[s]$?
 
 The recursion is: $E_k = \frac{1}{k}*1 + \frac{1}{k} \sum_{i=1}^{k-1} (E_i + 1)$.
 Meaning, with probability $\frac{1}{k}$ you stop, or with equal probabilities you
-do one roll more plus all the future rolls starting from that position. 
+do one roll more plus all the future rolls starting from that position.
+
+## 60. Green and red apples
+
+There are M green apples and N red apples in a box.
+You keep drawing until all the apples in the box are red.
+What is the probability that the when you finish drawing, the box is empty?
+
+**Solution**
+
+For that to happen, the last apple must be green. This happens with probability
+$\frac{M}{N+M}$.
+
+## 61, Product of tails and heads
+A fair coin is tossed $n$ times. What is the expected value of the number of heads times the number of tails?
+
+**Solution**
+
+Let $X$ be the number of heads and $Y$ be the number of tails. Clearly, $Y = n - X$.
+We are interested in $\mathbb{E}[XY] = \mathbb{E}[X(n-X)] = n*\mathbb{E}[X] - \mathbb{E}[X^2]$.
+We know that: $\mathbb{E}[X] = \frac{n}{2}$. Plus:
+
+$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$
+
+We know that: $Var(X) = \frac{n}{4}$, so we can derive $\mathbb{E}[X^2] = \frac{n}{4} + \frac{n^2}{4}$
+Concluding: $\mathbb{E}[XY] = \frac{n^2}{2} + \frac{n}{4} + \frac{n^2}{4}$.
+
+## 62. Green and red balls
+
+Box $A$ contains $1000$ green balls and $3000$ red balls.
+
+Box $B$ contains $3000$ green balls and $1000$ red balls.
+
+Suppose you take $2000$ random balls from box A and put them in box B.
+
+What's the probability of drawing a green ball?
+
+**Solution**
+It's useful to condition on the event: ball comes from box A or not:
+
+$\mathbb{P}(G) = \mathbb{P}(G \vert A)*\mathbb{P}(A) + \mathbb{P}(G \vert A^c)*\mathbb{P}(A^c)$
+
+We know that $P(A) = \frac{1}{3}$ and $P(A^c) = \frac{2}{3}$.
+Also, $P(G\vert A) = \frac{1}{4}$ and $P(G\vert A^c) = \frac{3}{4}$.
+
+## 63. Cards and aces
+Suppose you have a standard 52 cards deck. You can pick a number $k$ of cards you draw.
+What is the probability that the last card you draw from the $k$ draws is an ace *and* there is exactly another ace in the other $k-1$ cards?
+
+**Solution**
+
+Let $N_k$ be the number of ways a deck can be shuffled in the required position.
+Then, we are interested in finding: $\frac{N_k}{52!}$
+We need to fix an ace, fix a position out of $k-1$ for the second ace, and then two positions for the other two aces. Then, shuffle the aces and fix the other 48 cards.
+All in all:
+$N_k = 1 * (k-1) * \binom{52-k}{2} * 4! * 48!$
+
+## 64. Property of expected value of discrete positive random variable
+Suppose $N$ is a random variable whose values are positive integers.
+
+Prove that $\mathbb{E}[N] = \sum_{i=1}^\infty P(N > i)$.
+
+**Solution**
+
+By definition, $\mathbb{E}[N] = \sum_{i=1}^\infty i * P(N = i)$. Draw the values in a matrix and read column by column.
+
+## 65. Coupons and cereals
+
+Each box contains a coupon. There are $p$ different coupons. How many boxes of
+cereal need to be bought on average to have at least one coupon of each type?
+
+**Solution**
+
+Let $N = \sum_{k=1}^p N_k$, where $N$ is the random variable representing the number of boxes that have to be bought to reach $p$ coupons. While $N_k$ is the number of boxes that are
+bought from the time where we had $k-1$ coupons to the time when $k$ coupons are collected.
+$N_1 = 1$ clearly.
+
+Due to linearity, we are only interested in finding:
+$\mathbb{E}[N_k] = \sum_{i=1}^\infty \mathbb{P}(N_k > i)$
+
+Where $\mathbb{P}(N_k > i) = (\frac{k-1}{p})^i$.
+This is because for every $i$ box that has been bought, we need to keep getting the same $k-1$ coupons previously seen.
+
+## 66. Runs in a deck
+
+A run is a contiguous list of cards of the same colour.
+The sequence RBBR has for example 3 runs.
+What is the expected number of runs in a deck of $52$ cards.
+
+**Solution**
+
+Let $F_i$ be 1 if position $i$ is the start of a run and 0 otherwise.
+Then, we want to find the expected value of $N = \sum_{i=1}^{52}F_i = 1 + \sum_{i=2}^{52}F_i$
+Because $F_1 = 1$ always.
+Then, we only need to find $\mathbb{E}[F_i]$.
+$\mathbb{E}[F_i] = \mathbb{P}(C_i \neq C_{i-1}) =
+\mathbb{P}(C_i \neq C_{i-1}, C_i = R) + \mathbb{P}(C_i \neq C_{i-1}, C_i = B) = $
+
+$2*\mathbb{P}(C_i \neq C_{i-1}, C_i = R) = 2*\frac{26}{52}*\frac{26}{51} $
+
+## 67. Balls in boxes
+There are $N$ boxes and $N$ balls. Each ball can be put in a box, independently.
+What is the expected number of empty boxes?
+
+**Solution**
+
+Let $X_i$ be 1 if box is empty and 0 otherwise.
+We are interested in finding the expected value of $N= X_1 + \dots + X_N$, that is:
+$\mathbb{E}[N] = \sum_{i=1}^N \mathbb{E}[X_i] = N*\mathbb{E}[X_1]$
+With $\mathbb{E}[X_i] = (\frac{N-1}{N})^N$.
+
+## 68. Repetion of dice
+What is the expected number of rolls until we get a repetition?
+
+**Solution**
+Let $E_k$ be the expected number of rolls needed when $k$ numbers are missing.
+Clearly, $E_0=1$.
+Then, we can write:
+$E_k = (1-\frac{k}{6})*1 + \frac{k}{6}(1 + E_{k-1})$
+
+## 69. Bus waiting time
+Bus 1 passes 10 minutes after bus 2 has passed.
+Bus 2 passes 20 minutes after bus 1 has passed.
+What's the expected waiting time?
+
+**Solution**
+If a person comes in the first 10 minutes, that person will take bus 1, otherwise bus 2.
+Let $X \in [0,30]$ be the arrival time.  
+$W = (10-X)\mathbb{1}_{X \leq 10} + (30 - X)\mathbb{1}_{X > 10} = 10 - X + 20*\mathbb{1}_{X > 10}$
+$\mathbb{E}[W] = 10 - \mathbb{E}[X] + 20*\mathbb{P}(X > 10)$
+We have: $\mathbb{E}[X] = 15$ and $\mathbb{P}(X>10) = \frac{2}{3}$.
+
+## 70. Cluster of cars
+Suppose there are $N$ cars on a single way road. At first, they are all at the same distance,
+but there are cars slower than the others. What is the expected value of the number of clusters?
+
+**Solution**
+Let $C_N$ be the number of clusters, we are interested in finding:
+$\alpha_N = \mathbb{E}[C_N]$. Let $X_1,\dots,X_N$ be speed of the cars in the lane.
+Let $m = min\{X_1,\dots,X_N\}$. Surely, $\mathbb{P}(X_k = m) = \frac{1}{N}$.
+
+We can condition on the slowest car:
+
+$\mathbb{E}[C_N] = \sum_{i=1}^n \mathbb{E}[C_N \vert X_k = m]*\mathbb{P}(X_k=m) = \frac{1}{N}*\sum_{i=1}^n \mathbb{E}[C_N \vert X_k = m]$
+
+Moreover:
+
+$\mathbb{E}[C_N \vert X_k = m] = 1 + \mathbb{E}[C_{N-k}] = 1 + \alpha_{N-k}$
+
+Which means:
+
+$N*\alpha_N = N + \alpha_{N-1} + \alpha_{N-2} + \dots + \alpha_1$
+
+So: $\alpha_N = N + \alpha_N-1$, meaning $\alpha_N = \sum_{i=1}^k \frac{1}{k}$.
+
+## 71. Playing with balls
+
+A box contains 100 green, 100 white and 1 red ball.
+A player draws without replacement and wins 1€ for each green ball drawn and 0€ for the white ball.
+The game stops if he draws the red ball and loses all the money. The player can decide when to stop.
+What's the best strategy?
+
+**Solution**
+Let $\alpha_{m,k}^x$ be the expected gain that the best strategy would offer if there are $m$ white and $k$ green balls and we start with x€. Then, we can write:
+$ \alpha_{m,k}^x = max\{x, \frac{k}{m+k+1}*\alpha_{m,k-1}^{x+1} + \frac{m}{m+k+1}*\alpha_{m-1,k}^{x}\}$.
+
+## 72. Infinite tiles.
+Starting with a $1 \times n$ board. We place $1 \times 2$ tiles in it. The placement is random and goes on until it's not possible anymore to place tiles. Find the limit as $n$ goes to infinity of the fraction of covered board.
+
+**Solution**
+
+Let $A_n$ be the random variable that represent the final number of squares covered.
+$\alpha_n = \mathbb{E}[A_n]$, with $\alpha_0 = \alpha_1 = 0$ and $\alpha_2 = 1$
+Let $B_i$ the event that the first domino is placed in position $i$.
+Clearly, $P(B_i) = \frac{1}{n-1}$.
+
+$\alpha_n = \mathbb{E}[A_n] = \sum_{i=1}^{n-1} \mathbb{E}[A_n \vert B_i]*\mathbb{P}(B_i)$.
+
+After the first tile is put down, the board is split in two, and we find the following recursive formulation:
+$\mathbb{E}[A_n \vert B_i] = 2 + \alpha_{i-1} + \alpha_{n-i-1}$.
+
+## 73. Min of uniforms
+
+$X_1, \dots, X_n \sim Uniform(0,1)$.
+What is the expected value of the minimum?
+
+**Solution**
+
+Let $Y = \min\{X_1,\dots,X_n\}$.
+We need to find its density function. Let's start by the cumulative function.
+
+$F_Y(y) = \mathbb{P}(Y \leq y) = 1 - \mathbb{P}(\min\{X_1,\dots,X_n\} > y) =
+1 - (1 - x)^n$
+Then, $f_Y(y) = n(1-y)^{n-1}$.
+Finally: $\mathbb{E}[Y] = \int_0^1 y*n(1-y)^{n-1}dy = \frac{1}{n-1}$.

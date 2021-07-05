@@ -583,10 +583,136 @@
 <p>Let R be a random number generator such that \(R(n)\) return an integer in the range \(0,1,\dots,n-1\) with uniform probability. You start from \(x_0 = 10^{100}\) and consider the sequence \(x_i = R(x_{i-1})\). Eventually the series will terminate at \(x_s = 0\).</p>
 <p>What is \(\mathbb{E}[s]\)?</p>
 <p><strong>Solution</strong></p>
-<p>The recursion is: \(E_k = \frac{1}{k}*1 + \frac{1}{k} \sum_{i=1}^{k-1} (E_i + 1)\). Meaning, with probability \(\frac{1}{k}\) you stop, or with equal probabilities you do one roll more plus all the future rolls starting from that position. </p>
+<p>The recursion is: \(E_k = \frac{1}{k}*1 + \frac{1}{k} \sum_{i=1}^{k-1} (E_i + 1)\). Meaning, with probability \(\frac{1}{k}\) you stop, or with equal probabilities you do one roll more plus all the future rolls starting from that position.</p>
+<h2 id="ol_start60_green_and_red_apples"><a href="#ol_start60_green_and_red_apples" class="header-anchor"><ol start="60">
+<li><p>Green and red apples</p>
+</li>
+</ol>
+</a></h2>
+<p>There are M green apples and N red apples in a box. You keep drawing until all the apples in the box are red. What is the probability that the when you finish drawing, the box is empty?</p>
+<p><strong>Solution</strong></p>
+<p>For that to happen, the last apple must be green. This happens with probability \(\frac{M}{N+M}\).</p>
+<h2 id="61_product_of_tails_and_heads"><a href="#61_product_of_tails_and_heads" class="header-anchor">61, Product of tails and heads</a></h2>
+<p>A fair coin is tossed \(n\) times. What is the expected value of the number of heads times the number of tails?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(X\) be the number of heads and \(Y\) be the number of tails. Clearly, \(Y = n - X\). We are interested in \(\mathbb{E}[XY] = \mathbb{E}[X(n-X)] = n*\mathbb{E}[X] - \mathbb{E}[X^2]\). We know that: \(\mathbb{E}[X] = \frac{n}{2}\). Plus:</p>
+\(Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2\)
+<p>We know that: \(Var(X) = \frac{n}{4}\), so we can derive \(\mathbb{E}[X^2] = \frac{n}{4} + \frac{n^2}{4}\) Concluding: \(\mathbb{E}[XY] = \frac{n^2}{2} + \frac{n}{4} + \frac{n^2}{4}\).</p>
+<h2 id="ol_start62_green_and_red_balls"><a href="#ol_start62_green_and_red_balls" class="header-anchor"><ol start="62">
+<li><p>Green and red balls</p>
+</li>
+</ol>
+</a></h2>
+<p>Box \(A\) contains \(1000\) green balls and \(3000\) red balls.</p>
+<p>Box \(B\) contains \(3000\) green balls and \(1000\) red balls.</p>
+<p>Suppose you take \(2000\) random balls from box A and put them in box B.</p>
+<p>What&#39;s the probability of drawing a green ball?</p>
+<p><strong>Solution</strong> It&#39;s useful to condition on the event: ball comes from box A or not:</p>
+\(\mathbb{P}(G) = \mathbb{P}(G \vert A)*\mathbb{P}(A) + \mathbb{P}(G \vert A^c)*\mathbb{P}(A^c)\)
+<p>We know that \(P(A) = \frac{1}{3}\) and \(P(A^c) = \frac{2}{3}\). Also, \(P(G\vert A) = \frac{1}{4}\) and \(P(G\vert A^c) = \frac{3}{4}\).</p>
+<h2 id="ol_start63_cards_and_aces"><a href="#ol_start63_cards_and_aces" class="header-anchor"><ol start="63">
+<li><p>Cards and aces</p>
+</li>
+</ol>
+</a></h2>
+<p>Suppose you have a standard 52 cards deck. You can pick a number \(k\) of cards you draw. What is the probability that the last card you draw from the \(k\) draws is an ace <em>and</em> there is exactly another ace in the other \(k-1\) cards?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(N_k\) be the number of ways a deck can be shuffled in the required position. Then, we are interested in finding: \(\frac{N_k}{52!}\) We need to fix an ace, fix a position out of \(k-1\) for the second ace, and then two positions for the other two aces. Then, shuffle the aces and fix the other 48 cards. All in all: \(N_k = 1 * (k-1) * \binom{52-k}{2} * 4! * 48!\)</p>
+<h2 id="ol_start64_property_of_expected_value_of_discrete_positive_random_variable"><a href="#ol_start64_property_of_expected_value_of_discrete_positive_random_variable" class="header-anchor"><ol start="64">
+<li><p>Property of expected value of discrete positive random variable</p>
+</li>
+</ol>
+</a></h2>
+<p>Suppose \(N\) is a random variable whose values are positive integers.</p>
+<p>Prove that \(\mathbb{E}[N] = \sum_{i=1}^\infty P(N > i)\).</p>
+<p><strong>Solution</strong></p>
+<p>By definition, \(\mathbb{E}[N] = \sum_{i=1}^\infty i * P(N = i)\). Draw the values in a matrix and read column by column.</p>
+<h2 id="ol_start65_coupons_and_cereals"><a href="#ol_start65_coupons_and_cereals" class="header-anchor"><ol start="65">
+<li><p>Coupons and cereals</p>
+</li>
+</ol>
+</a></h2>
+<p>Each box contains a coupon. There are \(p\) different coupons. How many boxes of cereal need to be bought on average to have at least one coupon of each type?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(N = \sum_{k=1}^p N_k\), where \(N\) is the random variable representing the number of boxes that have to be bought to reach \(p\) coupons. While \(N_k\) is the number of boxes that are bought from the time where we had \(k-1\) coupons to the time when \(k\) coupons are collected. \(N_1 = 1\) clearly.</p>
+<p>Due to linearity, we are only interested in finding: \(\mathbb{E}[N_k] = \sum_{i=1}^\infty \mathbb{P}(N_k > i)\)</p>
+<p>Where \(\mathbb{P}(N_k > i) = (\frac{k-1}{p})^i\). This is because for every \(i\) box that has been bought, we need to keep getting the same \(k-1\) coupons previously seen.</p>
+<h2 id="ol_start66_runs_in_a_deck"><a href="#ol_start66_runs_in_a_deck" class="header-anchor"><ol start="66">
+<li><p>Runs in a deck</p>
+</li>
+</ol>
+</a></h2>
+<p>A run is a contiguous list of cards of the same colour. The sequence RBBR has for example 3 runs. What is the expected number of runs in a deck of \(52\) cards.</p>
+<p><strong>Solution</strong></p>
+<p>Let \(F_i\) be 1 if position \(i\) is the start of a run and 0 otherwise. Then, we want to find the expected value of \(N = \sum_{i=1}^{52}F_i = 1 + \sum_{i=2}^{52}F_i\) Because \(F_1 = 1\) always. Then, we only need to find \(\mathbb{E}[F_i]\). \(\mathbb{E}[F_i] = \mathbb{P}(C_i \neq C_{i-1}) =
+\mathbb{P}(C_i \neq C_{i-1}, C_i = R) + \mathbb{P}(C_i \neq C_{i-1}, C_i = B) = \)</p>
+\(2*\mathbb{P}(C_i \neq C_{i-1}, C_i = R) = 2*\frac{26}{52}*\frac{26}{51} \)
+<h2 id="ol_start67_balls_in_boxes"><a href="#ol_start67_balls_in_boxes" class="header-anchor"><ol start="67">
+<li><p>Balls in boxes</p>
+</li>
+</ol>
+</a></h2>
+<p>There are \(N\) boxes and \(N\) balls. Each ball can be put in a box, independently. What is the expected number of empty boxes?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(X_i\) be 1 if box is empty and 0 otherwise. We are interested in finding the expected value of \(N= X_1 + \dots + X_N\), that is: \(\mathbb{E}[N] = \sum_{i=1}^N \mathbb{E}[X_i] = N*\mathbb{E}[X_1]\) With \(\mathbb{E}[X_i] = (\frac{N-1}{N})^N\).</p>
+<h2 id="ol_start68_repetion_of_dice"><a href="#ol_start68_repetion_of_dice" class="header-anchor"><ol start="68">
+<li><p>Repetion of dice</p>
+</li>
+</ol>
+</a></h2>
+<p>What is the expected number of rolls until we get a repetition?</p>
+<p><strong>Solution</strong> Let \(E_k\) be the expected number of rolls needed when \(k\) numbers are missing. Clearly, \(E_0=1\). Then, we can write: \(E_k = (1-\frac{k}{6})*1 + \frac{k}{6}(1 + E_{k-1})\)</p>
+<h2 id="ol_start69_bus_waiting_time"><a href="#ol_start69_bus_waiting_time" class="header-anchor"><ol start="69">
+<li><p>Bus waiting time</p>
+</li>
+</ol>
+</a></h2>
+<p>Bus 1 passes 10 minutes after bus 2 has passed. Bus 2 passes 20 minutes after bus 1 has passed. What&#39;s the expected waiting time?</p>
+<p><strong>Solution</strong> If a person comes in the first 10 minutes, that person will take bus 1, otherwise bus 2. Let \(X \in [0,30]\) be the arrival time. \(W = (10-X)\mathbb{1}_{X \leq 10} + (30 - X)\mathbb{1}_{X > 10} = 10 - X + 20*\mathbb{1}_{X > 10}\) \(\mathbb{E}[W] = 10 - \mathbb{E}[X] + 20*\mathbb{P}(X > 10)\) We have: \(\mathbb{E}[X] = 15\) and \(\mathbb{P}(X>10) = \frac{2}{3}\).</p>
+<h2 id="ol_start70_cluster_of_cars"><a href="#ol_start70_cluster_of_cars" class="header-anchor"><ol start="70">
+<li><p>Cluster of cars</p>
+</li>
+</ol>
+</a></h2>
+<p>Suppose there are \(N\) cars on a single way road. At first, they are all at the same distance, but there are cars slower than the others. What is the expected value of the number of clusters?</p>
+<p><strong>Solution</strong> Let \(C_N\) be the number of clusters, we are interested in finding: \(\alpha_N = \mathbb{E}[C_N]\). Let \(X_1,\dots,X_N\) be speed of the cars in the lane. Let \(m = min\{X_1,\dots,X_N\}\). Surely, \(\mathbb{P}(X_k = m) = \frac{1}{N}\).</p>
+<p>We can condition on the slowest car:</p>
+\(\mathbb{E}[C_N] = \sum_{i=1}^n \mathbb{E}[C_N \vert X_k = m]*\mathbb{P}(X_k=m) = \frac{1}{N}*\sum_{i=1}^n \mathbb{E}[C_N \vert X_k = m]\)
+<p>Moreover:</p>
+\(\mathbb{E}[C_N \vert X_k = m] = 1 + \mathbb{E}[C_{N-k}] = 1 + \alpha_{N-k}\)
+<p>Which means:</p>
+\(N*\alpha_N = N + \alpha_{N-1} + \alpha_{N-2} + \dots + \alpha_1\)
+<p>So: \(\alpha_N = N + \alpha_N-1\), meaning \(\alpha_N = \sum_{i=1}^k \frac{1}{k}\).</p>
+<h2 id="ol_start71_playing_with_balls"><a href="#ol_start71_playing_with_balls" class="header-anchor"><ol start="71">
+<li><p>Playing with balls</p>
+</li>
+</ol>
+</a></h2>
+<p>A box contains 100 green, 100 white and 1 red ball. A player draws without replacement and wins 1€ for each green ball drawn and 0€ for the white ball. The game stops if he draws the red ball and loses all the money. The player can decide when to stop. What&#39;s the best strategy?</p>
+<p><strong>Solution</strong> Let \(\alpha_{m,k}^x\) be the expected gain that the best strategy would offer if there are \(m\) white and \(k\) green balls and we start with x€. Then, we can write: \( \alpha_{m,k}^x = max\{x, \frac{k}{m+k+1}*\alpha_{m,k-1}^{x+1} + \frac{m}{m+k+1}*\alpha_{m-1,k}^{x}\}\).</p>
+<h2 id="ol_start72_infinite_tiles"><a href="#ol_start72_infinite_tiles" class="header-anchor"><ol start="72">
+<li><p>Infinite tiles.</p>
+</li>
+</ol>
+</a></h2>
+<p>Starting with a \(1 \times n\) board. We place \(1 \times 2\) tiles in it. The placement is random and goes on until it&#39;s not possible anymore to place tiles. Find the limit as \(n\) goes to infinity of the fraction of covered board.</p>
+<p><strong>Solution</strong></p>
+<p>Let \(A_n\) be the random variable that represent the final number of squares covered. \(\alpha_n = \mathbb{E}[A_n]\), with \(\alpha_0 = \alpha_1 = 0\) and \(\alpha_2 = 1\) Let \(B_i\) the event that the first domino is placed in position \(i\). Clearly, \(P(B_i) = \frac{1}{n-1}\).</p>
+<p>\(\alpha_n = \mathbb{E}[A_n] = \sum_{i=1}^{n-1} \mathbb{E}[A_n \vert B_i]*\mathbb{P}(B_i)\).</p>
+<p>After the first tile is put down, the board is split in two, and we find the following recursive formulation: \(\mathbb{E}[A_n \vert B_i] = 2 + \alpha_{i-1} + \alpha_{n-i-1}\).</p>
+<h2 id="ol_start73_min_of_uniforms"><a href="#ol_start73_min_of_uniforms" class="header-anchor"><ol start="73">
+<li><p>Min of uniforms</p>
+</li>
+</ol>
+</a></h2>
+<p>\(X_1, \dots, X_n \sim Uniform(0,1)\). What is the expected value of the minimum?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(Y = \min\{X_1,\dots,X_n\}\). We need to find its density function. Let&#39;s start by the cumulative function.</p>
+<p>\(F_Y(y) = \mathbb{P}(Y \leq y) = 1 - \mathbb{P}(\min\{X_1,\dots,X_n\} > y) =
+1 - (1 - x)^n\) Then, \(f_Y(y) = n(1-y)^{n-1}\). Finally: \(\mathbb{E}[Y] = \int_0^1 y*n(1-y)^{n-1}dy = \frac{1}{n-1}\).</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 27, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: July 04, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

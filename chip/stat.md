@@ -1,0 +1,4 @@
+# Statistics questions
+
+
+## 1.

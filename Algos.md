@@ -1,11 +1,31 @@
 @def title = "CS/ML"
 @def date = Dates.today()
 
-# CS ML Notes
-
+# CS/ML Notes
+⭐
 
 # ML models
 ⭐
+
+# Chip Huyen ML interview book solutions.
+I have been reading [this](https://huyenchip.com/ml-interviews-book/) book by
+Chip Huyen. In my opinion, It's a super well written book for graduates that want
+to break into ML roles in industry. The provided questions are really nice, but
+the book lacks solution. Given that I am preparing for interviews, It looks like
+a fun exercise to work through all of them to the best of my ability.
+
+⭐ [Linear algebra questions](/chip/linalg/index.html)
+
+⭐ [Probability questions](/chip/prob/index.html)
+
+⭐ [Statistics questions](/chip/stat/index.html)
+
+⭐ [ML workflow](/chip/MLW/index.html)
+
+⭐ [ML algorithms](/chip/MLA/index.html)
+
+⭐ [Training neural networks algorithms](/chip/NN/index.html)
+
 
 # Algorithms for coding interviews
 
@@ -45,7 +65,7 @@ Total number of problems: 0.
 
 ⭐ [Math problems!](/algos/math/index.html)
 
-⭐ [Binarysearch problems!](/algos/binarysearch/index.html)
+⭐ [Binary search problems!](/algos/binarysearch/index.html)
 
 ⭐ [Backtracking problems!](/algos/backtracking/index.html)
 
