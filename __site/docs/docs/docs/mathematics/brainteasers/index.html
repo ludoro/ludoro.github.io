@@ -164,9 +164,53 @@
 <p>There are \(N\) at a convention. Everyone one of them goes randomly in a room. What is the probability that at least one of them goes to the right room?</p>
 <p><strong>Solution</strong></p>
 <p>The probability that at least one of them goes to the right room is equal to 1 - the probability that no one goes to the right room. Then, we have: \(1 - \frac{n-1}{n}*\frac{n-2}{n-1}*\dots = 1 - \frac{(n-1)!}{n!}\)</p>
+<h2 id="ol_start16_relationship_between_derivative_and_derivative_of_the_inverse"><a href="#ol_start16_relationship_between_derivative_and_derivative_of_the_inverse" class="header-anchor"><ol start="16">
+<li><p>Relationship between derivative and derivative of the inverse</p>
+</li>
+</ol>
+</a></h2>
+<p>We have \(g'(x)\). What can you say about \(\frac{d}{dx} g^{-1}(x)\)?</p>
+<p><strong>Solution</strong> Start from \(x=x\). Then:</p>
+\(g(g^{-1}(x)) = x\)
+<p>Taking derivative:</p>
+\(g'(g^{-1}(x))\frac{d}{dx}g^{-1}(x) = 1\)
+<p>Meaning: \(\frac{d}{dx}g^{-1}(x) = \frac{1}{g'(g^{-1}(x)}\)</p>
+<h2 id="ol_start17_strange_derivative"><a href="#ol_start17_strange_derivative" class="header-anchor"><ol start="17">
+<li><p>Strange derivative</p>
+</li>
+</ol>
+</a></h2>
+<p>What is \(\frac{d}{dx}x^x\)?</p>
+<p><strong>Solution</strong> Write \(x^x = e^{x \log x}\)</p>
+<h2 id="ol_start18_epi_vs_pie"><a href="#ol_start18_epi_vs_pie" class="header-anchor"><ol start="18">
+<li><p>\(e^\pi\) vs \(\pi^e\)?</p>
+</li>
+</ol>
+</a></h2>
+<p>Which is larger between \(e^\pi\) and \(\pi^e\)?</p>
+<p><strong>Solution</strong> Turn this into comparing \(\frac{\log e}{e}\) and \(\frac{\log \pi}{\pi}\) and study the derivative.</p>
+<h2 id="ol_start19_romeo_and_juliet"><a href="#ol_start19_romeo_and_juliet" class="header-anchor"><ol start="19">
+<li><p>Romeo and Juliet</p>
+</li>
+</ol>
+</a></h2>
+<p>Romeo and Juliet agree to meet between 8pm and 9pm. Each arrives at a random time and staits for \(15\) minutes, then leaves.</p>
+<p>What is the probabilit that they meet?</p>
+<p><strong>Solution</strong></p>
+<p>Let r and g the arrival time in &#91;0,1&#93;. We are asking: \(\mathbb{P}(\vert x - y \vert < \frac{15}{60} = \frac{1}{4})\)</p>
+<p>Drawing the area and calculating, gives the result of \(\frac{7}{16}\).</p>
+<h2 id="ol_start20_playing_with_digits"><a href="#ol_start20_playing_with_digits" class="header-anchor"><ol start="20">
+<li><p>Playing with digits</p>
+</li>
+</ol>
+</a></h2>
+<p>Consider all 100 digit numbers, those between 0 and \(10^{100}-1\). For each number, take the product of non-zero digits and sum across all numbers. What&#39;s the last digit?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(S(n)\) be the specified sum up to \(n\) digits. We have \(S(1) = 46\). In general:</p>
+<p>\(S(n+1) = S(n) + 1*S(n) + 2S(n) + \dots + 9S(n) = 46S(n)\). So we have: \(S(n) = 46^{n}\) Then, the question becomes: what is the last digit of \(46^{100}\)? All the power of a number ending in \(6\) end in \(6\).</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 22, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: June 27, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

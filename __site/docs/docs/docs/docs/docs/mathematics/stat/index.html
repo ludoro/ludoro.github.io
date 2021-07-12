@@ -50,9 +50,198 @@
 <p>Let G be the event &quot;sampled a value greater than two.&quot; We know that:</p>
 \(\mathcal{P}(X >= 2) = 1 - \mathcal{P}(X < 2) = 1 - \Phi(2)\)
 <p>Then, as the draws are independent, this can be seen as a Geometric distribution with probability of success \(p = 1 - \Phi(2)\), which happens after \(\frac{1}{p}\) draws.</p>
+<h2 id="ol_start3_picking_between_two_dice_games"><a href="#ol_start3_picking_between_two_dice_games" class="header-anchor"><ol start="3">
+<li><p>Picking between two dice games.</p>
+</li>
+</ol>
+</a></h2>
+<p>First game: you roll two dies at once and win the product of the rolls. Second game: you roll one die and get the square of the dice.</p>
+<p>Which game do you pick and why?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(X\) be the value of the dice rolled. First game has expected value: \(\mathbb{E}[X]*\mathbb{E}[X]\). The second game has expected value: \(\mathbb{E}[X^2]\) We know that \(Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2 \geq 0\), so we prefer the second game.</p>
+<h2 id="ol_start4_simulating_standard_normal_distribution"><a href="#ol_start4_simulating_standard_normal_distribution" class="header-anchor"><ol start="4">
+<li><p>Simulating standard normal distribution.</p>
+</li>
+</ol>
+</a></h2>
+<p>You are given a random Bernoulli generator. How would you generate values from a standard normal distribution?</p>
+<p>Follow up question: can you come up with another method in the case of a Uniform random number generator?</p>
+<p><strong>Solution</strong></p>
+<p>Let&#39;s generate \(N\) samples following Bernoulli&#40;p&#41;. Then, thanks to the Central limit theorem, we have that: \( \frac{\sqrt{N} (\overline X_N - \mu)}{\sigma} \to \mathcal{N}(0,1) \) In this setting, \(\mu = p\), \(\sigma = \sqrt{p(1-p)}\) and \(\overline X_N = \frac{x_1 + \dots + x_N}{N}\)</p>
+<p>Then, \(\overline X_N \sim \mathcal{N}(p, \frac{p(1-p)}{N})\)</p>
+<p>To get a value normally distributed, we just take the Z-score value: \(z(\overline X_N) = \frac{\overline X_N - p}{\sqrt{\frac{p(1-p)}{N}}}\) which is normally distributed.</p>
+<p>Onto the follow up question.</p>
+<p>Suppose \(X \sim \mathcal{N}(0,1)\). Then, \(Y = F_X(x)\) where \(F\) is the cdf of \(X\) is uniformly distributed. Then \(X = F_X^{-1}(Y)\) is distributed as X and the sample can be calculated. It might be expensive to calculate the inverse, in the case of the normal distribution it can be approximated with the error function.</p>
+<h2 id="ol_start5_independent_vs_uncorrelated"><a href="#ol_start5_independent_vs_uncorrelated" class="header-anchor"><ol start="5">
+<li><p>independent vs uncorrelated</p>
+</li>
+</ol>
+</a></h2>
+<p>\(X\), \(Y\) are two random variables. What does it mean for \(X\) and \(Y\) to be independent? Uncorrelated? Give an example where \(X\) and \(Y\) are uncorrelated but not independent.</p>
+<p><strong>Solution</strong></p>
+<p>independent: \(P(X,Y)=P(X)*P(Y)\) Uncorrelated: \(Cov(X,Y) = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y] = 0\)</p>
+<p>The example is built using discrete stuff. Let \(X\) take values 1,0,-1 with equal probabilities. Let \(Y=1\) if \(X = 0\) and \(Y=0\) otherwise. Clearly, X and Y are not independent.</p>
+<p>Still: \(\mathbb{E}[X] = 0\) and \(E[XY] = \frac{1}{3}(-1)(0) +
+ \frac{1}{3}(0)(1) + \frac{1}{3}(1)(0) = 0\),  so they are uncorrelated.</p>
+<h2 id="ol_start6_one_extra_coin_toss"><a href="#ol_start6_one_extra_coin_toss" class="header-anchor"><ol start="6">
+<li><p>One extra coin toss</p>
+</li>
+</ol>
+</a></h2>
+<p>A and B are playing a game where A has \(n+1\) coins and B has \(n\) coins. They each flip all the coins. What is the probability that A has more heads than B?</p>
+<p><strong>Solution</strong></p>
+<p>The answer is \(\frac{1}{2}\). The first n of A &quot;neutralize&quot; all the B coins, so just one coin is left.</p>
+<h2 id="ol_start7_covariance_of_uniforms"><a href="#ol_start7_covariance_of_uniforms" class="header-anchor"><ol start="7">
+<li><p>Covariance of uniforms</p>
+</li>
+</ol>
+</a></h2>
+<p>Suppose we have \(X \sim Unif(0,1)\) and \(Y = X^2\). What is the covariance of X and Y?</p>
+<p><strong>Solution</strong> \(Cov(X,Y) = Cov(X,X^2) = \mathbb{E}[X*X^2] - \mathbb{E}[X]*\mathbb{E}[X^2] = 0\) The second term is \(0\) because \(\mathbb{E}[X] = 0\). The first term is \(0\) because: \( \int_{-1}^{+1} x^{3}*\frac{1}{1-(-1)}dx = 0\)</p>
+<h2 id="ol_start8_coin_flips_needed_to_detect_bias"><a href="#ol_start8_coin_flips_needed_to_detect_bias" class="header-anchor"><ol start="8">
+<li><p>Coin flips needed to detect bias</p>
+</li>
+</ol>
+</a></h2>
+<p>You have an unfair coin: \(\mathbb{P}(H) = 0.6\) and \(\mathbb{P}(T) = 0.4\). How many coin flips are needed to detect that the coin is unfair?</p>
+<p><strong>Solution</strong></p>
+<p>There are two ways to go about this. They both rely on the Central limit theorem.</p>
+<p>We know that \(\sqrt{n} \frac{(\overline X_n - p)}{(\sqrt{p(1-p)})} \sim \mathcal{N}(0,1)\) Then, \(\overline X_n \sim \mathcal{N}(p,p(1-p)/n)\) We can define the coin as unfair if the z-score for the empirical \(X_n\) is above say \(2\):</p>
+\[ \frac{\overline X_n - p}{ \sqrt{\frac{p(1-p)}{n}} } > 2 \]
+<p>And we can just solve for \(n\).</p>
+<p>A second approach, is setting the lower bound of a 95&#37; confidence interval to \(0.5\):</p>
+\[ p - z \sqrt{\frac{p(1-p)}{n}} = 0.5 \]
+<p>And again solve for \(n\).</p>
+<h2 id="ol_start9_area_of_a_circle"><a href="#ol_start9_area_of_a_circle" class="header-anchor"><ol start="9">
+<li><p>Area of a circle</p>
+</li>
+</ol>
+</a></h2>
+<p>Say you pick the radius of a circle from a uniform distribution between 0 and 1. What is the probability density of the area of the circle?</p>
+<p><strong>Solution</strong></p>
+<p>The density function of the radius \(r\) is \(f_R(r) = 1\) when \(0 < r < 1\). I want to find the cdf of the Area to describe the distribution:</p>
+\( F_A(a) = \mathbb{P}(A \leq a) = \mathbb{P}(\pi r^2 \leq a) =
+\mathbb{P}(r \leq \sqrt{\frac{a}{\pi}}) = \int_{r=0}^{r=\sqrt{\frac{a}{\pi}}} dr = \sqrt{\frac{a}{\pi}}\)
+<h2 id="ol_start10_serving_wait_time"><a href="#ol_start10_serving_wait_time" class="header-anchor"><ol start="10">
+<li><p>Serving wait time</p>
+</li>
+</ol>
+</a></h2>
+<p>Two servers: F and S. F is faster and S is slower. Users are routed to a server randomly and wait time is exponentially distributed with two different parameters. What is the pdf of a user waiting time?</p>
+<p><strong>Solution</strong></p>
+<p>It is just: \(f(t) = p_1 * f_S(s) + p_2 * f_F(f)\).</p>
+<h2 id="ol_start11_estimating_pi"><a href="#ol_start11_estimating_pi" class="header-anchor"><ol start="11">
+<li><p>Estimating \(\pi\)</p>
+</li>
+</ol>
+</a></h2>
+<p>How would you estimate \(\pi\)?</p>
+<p><strong>Solution</strong></p>
+<p>A classic. Suppose you have a square of size 1, with bottom left corner on the origin. Draw \(\frac{1}{4}\) of a circle inside it. Generate random values inside the circle, we have:</p>
+\[\frac{\text{number of points inside the circle}}{\text{total number of points}} = \frac{\frac{\pi R^2}{4}}{1} \]
+<p>From which we can get the \(\pi\).</p>
+<h2 id="ol_start12_uniform_draws"><a href="#ol_start12_uniform_draws" class="header-anchor"><ol start="12">
+<li><p>Uniform draws</p>
+</li>
+</ol>
+</a></h2>
+<p>Suppose you sample independently three values \(X \sim Unif(0,1)\). What is the probability that the first value will be larger than the sum of the other two?</p>
+<p><strong>Solution</strong></p>
+<p>Just need to solve:</p>
+\[P(X_1 > X_2 + X_3) = \int_0^1 \int_0^{x_1} \int_0^{x_2-x_1} dx_3 dx_2 dx_1 = 1/6\]
+<h2 id="ol_start13_max_of_two_rolls"><a href="#ol_start13_max_of_two_rolls" class="header-anchor"><ol start="13">
+<li><p>Max of two rolls</p>
+</li>
+</ol>
+</a></h2>
+<p>What is the expected value of the max of two dice rolls?</p>
+<p><strong>Solution</strong> Let \(X_1\) and \(X_2\) be the values of the first and second roll respectively. We are interested in finding the expected value of \(Y = \max{(X_1,X_2)}\):</p>
+\( \mathbb{E}[Y] = \sum_{i=1}^6 i * \mathbb{P}(Y = i)\)
+<p>There are three cases:</p>
+<ol>
+<li><p>The max value is on the first roll</p>
+</li>
+<li><p>The max value is on the second roll</p>
+</li>
+<li><p>The two rolls are equal.</p>
+</li>
+</ol>
+\(\mathbb{P}(Y=i) = \mathbb{P}(X_1 = i, X_2 < i) + \mathbb{P}(X_2 = i, X_1 < i) + \mathbb{P}(X_1 = X_2 = i)\)
+<p>Then:</p>
+\(\mathbb{P}(Y=i) = 1/6*(i-1)/6 + 1/6*(i-1)/6 + \frac{1}{6}*\frac{1}{6}\)
+<h2 id="ol_start14_increasing_rolls"><a href="#ol_start14_increasing_rolls" class="header-anchor"><ol start="14">
+<li><p>Increasing rolls</p>
+</li>
+</ol>
+</a></h2>
+<p>N-sided die. You keep rolling and sum values as long as the current roll is larger than the previous.</p>
+<p>What is the expected value of the sum?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(\mathbb{E}[r]\) be the expectation of the sum given you first roll the value \(r\). Then, by definition: \(\mathbb{E}[r] = r + \frac{1}{n}\mathbb{E}[r] + \frac{1}{n}\mathbb{E}[r+1] +\dots + \frac{1}{n}\mathbb{E}[n]\) Given that \(\mathbb{E}[n] = n\), it is possible to recursively solve it and find: \(\mathbb{E}[r] = n\) for every \(r\).</p>
+<h2 id="ol_start15_monotonically_increasing"><a href="#ol_start15_monotonically_increasing" class="header-anchor"><ol start="15">
+<li><p>Monotonically increasing</p>
+</li>
+</ol>
+</a></h2>
+<p>Assume you draw from Uniform &#40;0,1&#41; iid. Keep drawing as long as the sequence is monotonically increasing. What is the expected length of draws?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(X_i = 1\) if draw \(x_i\) is in the list. To go up until \(X_i\), we need: \(x_1 < x_2 < \dots < x_i\), this happens with probability: \(\frac{1}{i!}\) Then, we can write thanks to independence: \( \mathbb{E}[X_1 + \dots] = 1 + \frac{1}{2!} + \frac{1}{3!} + \dots = e - 1\)</p>
+<h2 id="ol_start16_two_fives"><a href="#ol_start16_two_fives" class="header-anchor"><ol start="16">
+<li><p>Two fives</p>
+</li>
+</ol>
+</a></h2>
+<p>You are rolling  a fair six sided dice. What is the expected number of rolls until you roll two consecutive 5s?</p>
+<p><strong>Solution</strong> Let X be the event of getting two consecutive 5. Let Y be the event of getting a five. We can write:</p>
+\(\mathbb{E}[X] = \frac{1}{6}(1 + \mathbb{E}[X\vert Y]) + \frac{5}{6}(1 + \mathbb{E}[X])\)
+<p>Knowing that: \(\mathbb{E}[X\vert Y] = \frac{1}{6}(1 + 0) + \frac{5}{6}(1 +\mathbb{E}[X])\) We get the final answer: \(\mathbb{E}[X] = 42\).</p>
+<h2 id="ol_start17_uniform_sum_time"><a href="#ol_start17_uniform_sum_time" class="header-anchor"><ol start="17">
+<li><p>Uniform sum time</p>
+</li>
+</ol>
+</a></h2>
+<p>You keep sampling iid Uniform &#40;0,1&#41;, until the sum exceeds \(1\). How many samples do you expect to take?</p>
+<p><strong>Solution</strong></p>
+<p>Let \(N_t = \text{smalest t such that: } \sum_{i=1}^n U_i > t\). We are interested generally in \(m(t) = \mathbb{E}[N_t]\). When sampling a value x, we can write the following recursive equation: \( N_t = 1 + N_{t-x}\) Taking the expected value: \(m(t) = 1 + \mathbb{E}[N_{t-x}] = 1 + \int_0^t m(t-x)dx\).</p>
+<p>Solving, we find \(m(t) = e^t\).</p>
+<h2 id="ol_start18_connecting_ends"><a href="#ol_start18_connecting_ends" class="header-anchor"><ol start="18">
+<li><p>Connecting ends</p>
+</li>
+</ol>
+</a></h2>
+<p>100 noodles. At each step, select randomly two ends and tie them together. What is the expected number of loops formed?</p>
+<p><strong>Solution</strong></p>
+<h2 id="ol_start19_noodles_connection"><a href="#ol_start19_noodles_connection" class="header-anchor"><ol start="19">
+<li><p>Noodles connection</p>
+</li>
+</ol>
+</a></h2>
+<p>Say you have \(100\) noodles. At each step you pick randomly two ends and connect them. What is the expected number of loops?</p>
+<p><strong>Solution</strong></p>
+<p>We can write the following recursive relation:</p>
+\(\mathbb{E}[n] = \frac{n}{\binom{2n}{2}}*[1 + \mathbb{E}[n-1]] + (1 - \frac{n}{\binom{2n}{2}} )*(0 + E[n-1])\)
+<p>Getting to:</p>
+\(\mathbb{E}[n] = \frac{1}{2n-1} + \mathbb{E}[n-1]\)
+<p>Observing trivially that \( \mathbb{E}[1] = 0\), it is possible to solve it.</p>
+<h2 id="ol_start20_distinct_draws"><a href="#ol_start20_distinct_draws" class="header-anchor"><ol start="20">
+<li><p>Distinct draws</p>
+</li>
+</ol>
+</a></h2>
+<p>Say you have \(n\) numbers \(1 \dots n\) and you uniformly sample from this distribution with replacement \(n\) times.</p>
+<p>What is the expected number of distinct values you would draw?</p>
+<p><strong>Solution</strong> Let \(X_i = 1\) if draw \(i\) is seen in \(n\) draws.</p>
+<p>We are interested in \(\sum_{i=1}^n \mathbb{E}[X_i]\).</p>
+<p>\(\mathbb{E}[X_i] = (\frac{n-1}{n})^n*0 + (1-(\frac{n-1}{n})^n)*1\) So the final answer is just:</p>
+\(\sum_{i=1}^n \mathbb{E}[X_i] = n*(1-(\frac{n-1}{n})^n)*1\)
+<h2 id="many_tosses"><a href="#many_tosses" class="header-anchor">Many tosses</a></h2>
+<p>Say you toss a coin \(n\) times. With \(n\) very large. How many sequences of 5 heads followed by 5 tails do you expect to see?</p>
+<p><strong>Solution</strong> \(X_i = 1\) if \(i\) is starting point of the sequence.</p>
+<p>We want to find \(\mathbb{E}[\sum_{i=1}^n X_i ] =  \sum_{i=1}^n\mathbb{E}[X_i]\)</p>
+<p>Where \(\mathbb{E}[X_i] = (\frac{1}{2})^{10} * (n-10)\)</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 12, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: June 20, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

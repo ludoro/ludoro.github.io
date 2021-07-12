@@ -1015,3 +1015,17 @@ the probability that A is a subset of B?
 There are four possible sets: $A \setminus B$, $B \setminus A$, $A \cap B$ and $X \setminus ( A \cup B)$.
 For A to be a subset of B, the set $A \setminus B$ must be empty. This happens with probability
 $(\frac{3}{4})^n$.
+
+
+## 79. Distribution of max/min of three uniforms
+
+Let $U_1,U_2,U_3 \sim Unif(0,1)$ independent. Let $L = \min{U_i}$ and $M = \max{U_i}$
+Find the distribution of the marginals, joint and M conditioned on L.
+
+**Solution**
+
+$F_M(m) = \mathbb{P}(M \leq m) = m * m * m = m^3$. So, $f_M(m) = 3m^2$.
+Similarly: $F_L(l) = (1-l)^3$ and $f_L(l) = 3(1-l)^2$
+For the joint distribution, observe that:
+$\mathbb{P}(M\leq m) = \mathbb{P}(L > l, M\leq m) + \mathbb{P}( L \leq l, M\leq m)$
+Observe that $\mathbb{P}(L > l, M\leq m) = (m-l)^3$ and everything follows.

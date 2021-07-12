@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+  
+  <link rel="stylesheet" href="/css/franklin.css">
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="icon" href="/assets/favicon.png">
+   <title>Brainteasers</title>  
+</head>
+<body>
+  <header>
+<div class="blog-name"><a href="/"> Math of the uncertainty, with a touch of ML </a></div>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/CV">CV</a></li>
+    <li><a href="/Algos">CS/ML</a></li>
+    <li><a href="/Math">Math</a></li>
+    <li><a href="/books">Library</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <!--  <li><a href="/contact">Contact</a></li> -->
+  </ul>
+</nav>
+</header>
+
+
+<!-- Content appended here -->
+<div class="franklin-content"><h1 id="brainteasers_problems_preview"><a href="#brainteasers_problems_preview" class="header-anchor">Brainteasers problems preview</a></h1>
+<h2 id="screwy_pirates"><a href="#screwy_pirates" class="header-anchor"><ol>
+<li><p>Screwy pirates</p>
+</li>
+</ol>
+</a></h2>
+<p>5 pirates looted a chest full of 100 gold coins. The most senior pirate proposes a distribution of coins. All pirates, including the most senior one, will vote. If at least 50&#37; of pirates accept the proposal, the gold is divided. If not, the most senior pirate is fed to the shark and the process starts over.</p>
+<p><strong>Solution</strong></p>
+<p>To reason about this, let&#39;s start by simplying the problem: just one pirate. In this case, all 100 coins to him: not much to reason about.</p>
+<p>In the case of \(2\) pirates, the senior pirate proposes 100 coins to him as well: a tie still means that he wins.</p>
+<p>Let&#39;s now go to \(3\) pirates: A,B and C. If the senior pirate gives just one coin to C, then this makes C vote for him. If C has 0 coins, he will vote no alongside B to kill \(A\). So the split in this case is: A -&gt; 99 B -&gt; 0 C -&gt; 1</p>
+<p>Moving to \(4\) pirates: reasoning similarly: A -&gt; 99 B -&gt; 0 C -&gt; 1 D -&gt; 0</p>
+<p>We start seeing a pattern: A -&gt; 99 B -&gt; 0 C -&gt; 1 D -&gt; 0 E -&gt; 1</p>
+<h2 id="ol_start2_tiger_and_sheep"><a href="#ol_start2_tiger_and_sheep" class="header-anchor"><ol start="2">
+<li><p>Tiger and sheep</p>
+</li>
+</ol>
+</a></h2>
+<p>100 tigers and one sheep. Tigers can eat grass, but they&#39;d rather eat sheep. If tiger eats the sheep, then he will become a sheep. Will the sheep be eaten?</p>
+<p><strong>Solution</strong></p>
+<p>Again, start with 1 tiger. In this case, the tiger just eats the sheep. With 2 tigers, no tiger will eat the sheep because he will get eaten. With 3 tigers, the sheep will be eaten because then there is an even number of sheeps and no tiger will eat again. By induction, we conclude that given \(n=100\) is even, the first sheep will not be eaten.</p>
+<h2 id="ol_start3_card_game"><a href="#ol_start3_card_game" class="header-anchor"><ol start="3">
+<li><p>Card game</p>
+</li>
+</ol>
+</a></h2>
+<p>Standard deck of \(52\) cards. Turn two cards at each time. For each pair: if both black they go to the dealer pile, if both are red they go to your pile and if they are different they are discarded. You win if there are more red cards than black cards, you lose if it&#39;s a tie or more black cards. How much do you pay to play the game?</p>
+<p><strong>Solution</strong> You never play this game: it&#39;s always going to be a tie.</p>
+<h2 id="ol_start4_burning_ropes"><a href="#ol_start4_burning_ropes" class="header-anchor"><ol start="4">
+<li><p>Burning ropes</p>
+</li>
+</ol>
+</a></h2>
+<p>Two ropes, each of which takes 1 hour to burn. Either rope is different so there is no consistency.</p>
+<p>How do you use two ropes to measure 45 minutes?</p>
+<p><strong>Solution</strong></p>
+<p>Classic. You light the first rope on both end and the second rope on one end. When the first rope burns out, you light out the second end of the second rope. This will make the total time of \(45\) minutes.</p>
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Ludovico Bessi. Last modified: July 12, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+  </div>
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+  </body>
+</html>

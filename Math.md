@@ -40,15 +40,19 @@ different things. Still, the more problems solved, the better!
 With that in mind, below I compiled the most useful tricks one needs to know,
 alongside some questions to showcase those tricks.
 
-Total number of problems: $121$.
+Total number of problems: $122$.
+
+I am looking to write a small website containing all of them for a monthly subscription,
+[stay tuned](https://ludovicobessi.substack.com/p/coming-soon?r=jeeym&utm_campaign=post&utm_medium=email&utm_source=copy)!
+
 ### Brain teasers
-⭐ [Brainteasers](/mathematics/brainteasers/index.html)
+⭐ [Brainteasers](/math_preview/brainteasers/index.html)
 
 ### Probability
-⭐ [Probability](/mathematics/prob/index.html)
+⭐ [Probability](/math_preview/prob/index.html)
 
 ### Statistics
-⭐ [Statistics](/mathematics/stat/index.html)
+⭐ [Statistics](/math_preview/stat/index.html)
 
 
 Moving on to some notes on favorite topics of mine:

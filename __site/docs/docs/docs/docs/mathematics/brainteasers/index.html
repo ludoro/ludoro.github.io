@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
   
   <link rel="stylesheet" href="/css/franklin.css">
   <link rel="stylesheet" href="/css/basic.css">
@@ -29,20 +30,151 @@
 
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="brainteasers_problems"><a href="#brainteasers_problems" class="header-anchor">Brainteasers problems</a></h1>
-<h2 id="name"><a href="#name" class="header-anchor"><ol>
-<li><p>Name</p>
+<h2 id="screwy_pirates"><a href="#screwy_pirates" class="header-anchor"><ol>
+<li><p>Screwy pirates</p>
 </li>
 </ol>
 </a></h2>
-<p>Problem description</p>
+<p>5 pirates looted a chest full of 100 gold coins. The most senior pirate proposes a distribution of coins. All pirates, including the most senior one, will vote. If at least 50&#37; of pirates accept the proposal, the gold is divided. If not, the most senior pirate is fed to the shark and the process starts over.</p>
 <p><strong>Solution</strong></p>
-<p>Bla bla bla</p>
+<p>To reason about this, let&#39;s start by simplying the problem: just one pirate. In this case, all 100 coins to him: not much to reason about.</p>
+<p>In the case of \(2\) pirates, the senior pirate proposes 100 coins to him as well: a tie still means that he wins.</p>
+<p>Let&#39;s now go to \(3\) pirates: A,B and C. If the senior pirate gives just one coin to C, then this makes C vote for him. If C has 0 coins, he will vote no alongside B to kill \(A\). So the split in this case is: A -&gt; 99 B -&gt; 0 C -&gt; 1</p>
+<p>Moving to \(4\) pirates: reasoning similarly: A -&gt; 99 B -&gt; 0 C -&gt; 1 D -&gt; 0</p>
+<p>We start seeing a pattern: A -&gt; 99 B -&gt; 0 C -&gt; 1 D -&gt; 0 E -&gt; 1</p>
+<h2 id="ol_start2_tiger_and_sheep"><a href="#ol_start2_tiger_and_sheep" class="header-anchor"><ol start="2">
+<li><p>Tiger and sheep</p>
+</li>
+</ol>
+</a></h2>
+<p>100 tigers and one sheep. Tigers can eat grass, but they&#39;d rather eat sheep. If tiger eats the sheep, then he will become a sheep. Will the sheep be eaten?</p>
+<p><strong>Solution</strong></p>
+<p>Again, start with 1 tiger. In this case, the tiger just eats the sheep. With 2 tigers, no tiger will eat the sheep because he will get eaten. With 3 tigers, the sheep will be eaten because then there is an even number of sheeps and no tiger will eat again. By induction, we conclude that given \(n=100\) is even, the first sheep will not be eaten.</p>
+<h2 id="ol_start3_card_game"><a href="#ol_start3_card_game" class="header-anchor"><ol start="3">
+<li><p>Card game</p>
+</li>
+</ol>
+</a></h2>
+<p>Standard deck of \(52\) cards. Turn two cards at each time. For each pair: if both black they go to the dealer pile, if both are red they go to your pile and if they are different they are discarded. You win if there are more red cards than black cards, you lose if it&#39;s a tie or more black cards. How much do you pay to play the game?</p>
+<p><strong>Solution</strong> You never play this game: it&#39;s always going to be a tie.</p>
+<h2 id="ol_start4_burning_ropes"><a href="#ol_start4_burning_ropes" class="header-anchor"><ol start="4">
+<li><p>Burning ropes</p>
+</li>
+</ol>
+</a></h2>
+<p>Two ropes, each of which takes 1 hour to burn. Either rope is different so there is no consistency.</p>
+<p>How do you use two ropes to measure 45 minutes?</p>
+<p><strong>Solution</strong></p>
+<p>Classic. You light the first rope on both end and the second rope on one end. When the first rope burns out, you light out the second end of the second rope. This will make the total time of \(45\) minutes.</p>
+<h2 id="ol_start5_defective_ball"><a href="#ol_start5_defective_ball" class="header-anchor"><ol start="5">
+<li><p>Defective ball</p>
+</li>
+</ol>
+</a></h2>
+<p>You have \(12\) identical balls. One of the balls is heavier OR lighter than the rest. Using a balance that only shows which side of the tray is heavier, can you determine which ball is the defective one with \(3\) measurements?</p>
+<p><strong>Solution</strong> Split the balls into three groups: &#40;1,2,3,4&#41;,&#40;5,6,7,8&#41; and &#40;9,10,11,12&#41;. Compare the first two groups, they are either equal or lighter. If heavier, just swap numbering so it becomes lower again.</p>
+<p>Then use some balls from the group where we know that the ball are standard to draw conclusions.</p>
+<h2 id="ol_start6_trailing_zeros"><a href="#ol_start6_trailing_zeros" class="header-anchor"><ol start="6">
+<li><p>Trailing zeros</p>
+</li>
+</ol>
+</a></h2>
+<p>How many trailing zeros are there in \(100!\)?</p>
+<p><strong>Solution</strong></p>
+<p>The number trailing zeros of a x is just the number of 5s matched with the number of 2s. Take 100 as an example: \(100 = 10*10 = 5*2*5*2\), two trailing zeros. In the case of \(100!\), the number of 5s in it is: \(100/5 + 100/25 = 20 + 4 = 24\) The number of 2s is: \(100/2 + 100/4 = 50 + 25 = 75\) So the max number of matches is \(24\), thus we have \(24\) leading zeros.</p>
+<h2 id="7_infinite_sequence"><a href="#7_infinite_sequence" class="header-anchor">7, Infinite sequence</a></h2>
+<p>If \(x^{x^{^\dots}} = 2\), what is x?</p>
+<p><strong>Solution</strong></p>
+<p>We notice this is equal to \(x^2 = 2\) so \(x=\sqrt{2}\)</p>
+<h2 id="ol_start8_last_ball"><a href="#ol_start8_last_ball" class="header-anchor"><ol start="8">
+<li><p>Last ball</p>
+</li>
+</ol>
+</a></h2>
+<p>A bag has 20 blue balls and 14 red balls. Each time you randomly take two balls out withouth replacement.</p>
+<p>If both balls have same color, add a blue ball. If they have a different color, add a red ball.</p>
+<p>What will be the color of the last ball left in the bag?</p>
+<p>Bonus: what happens in the case B&#61;20 and R&#61;13?</p>
+<p><strong>Solution</strong></p>
+<p>There are three cases:</p>
+<ul>
+<li><p>&#40;B,R&#41; -&gt; &#40;B-1,R&#41;</p>
+</li>
+<li><p>&#40;B,R&#41; -&gt; &#40;B&#43;1,R-2&#41;</p>
+</li>
+<li><p>&#40;B,R&#41; -&gt; &#40;B-1,R&#41;</p>
+</li>
+</ul>
+<p>For the case B&#61;20 and R &#61; 14, the last ball must be blue because it is not possible to have an odd number of red balls. For the case B&#61;20 and R &#61; 13, similarly the final ball must be red because the number always stays odd.</p>
+<h2 id="ol_start9_coin_piles"><a href="#ol_start9_coin_piles" class="header-anchor"><ol start="9">
+<li><p>Coin piles</p>
+</li>
+</ol>
+</a></h2>
+<p>\(N=1000\) coins on the floor. \(980\) tails and \(20\) heads. You are blindfolded. Can you separate the coins in two groups such that they have an equal number of heads?</p>
+<p><strong>Solution</strong></p>
+<p>Group A has \(n\) coin, while groub B has \(1000-n\) coins.</p>
+<p>Group A has m heads and n - m tails, while groupB has 20 - m heads. Flip all coins in group A: m tails and n - m heads. Setting \(n - m = 20 - m\) gives \(n=20\) for size of group \(A\).</p>
+<h2 id="ol_start10_counterfeit_coins"><a href="#ol_start10_counterfeit_coins" class="header-anchor"><ol start="10">
+<li><p>Counterfeit coins</p>
+</li>
+</ol>
+</a></h2>
+<p>10 bags with 100 identical coins. In all bags but one, each coin weighs 10 grams. However, all coins in the counterfeit weigh either 9 or 11. Can you find the counterfeit bag with only one weighing using a digital scale that tells the exact weight?</p>
+<p><strong>Solution</strong> Pick \(i\) coins for each bag. In total we have \(\sum_{i=1}^n i = 55\) coins. If all of them weighted the same, we would have 550 as weight. However, the weight would be \(550 \pm i\)</p>
+<h2 id="ol_start11_coin_split_problem"><a href="#ol_start11_coin_split_problem" class="header-anchor"><ol start="11">
+<li><p>Coin split problem</p>
+</li>
+</ol>
+</a></h2>
+<p>\(n\) coins. Split into two piles. Multiply and add to the total final. Expression for the final value?</p>
+<p><strong>Solution</strong></p>
+<p>Example: n split into x and y. x split into \(x_1,x_2\) and y split into \(y_1,y_2\). The final answer is: \(x*y + x_1*x_2 + y_1*y_2\) In general, for a split of size \(x\) and \(n-x\):</p>
+\(f(n) = f(x) + f(n-x) + x(n-x)\)
+<h2 id="ol_start12_drunk_passenger"><a href="#ol_start12_drunk_passenger" class="header-anchor"><ol start="12">
+<li><p>Drunk passenger</p>
+</li>
+</ol>
+</a></h2>
+<p>A line of 100 airline passengers are waiting to board a plane. The first passenger in line is drunk and picks a random seat. After that, a passenger either goes to his seat, or picks one randomly.</p>
+<p>What&#39;s the probability that you end up in your seat?</p>
+<p><strong>Solution</strong></p>
+<p>With this setup, the secnd to last passenger has get his own seat or not, with probability \(\frac{1}{2}\) given that there are two seats left.</p>
+<h2 id="ol_start13_hopping_rabbit"><a href="#ol_start13_hopping_rabbit" class="header-anchor"><ol start="13">
+<li><p>Hopping rabbit</p>
+</li>
+</ol>
+</a></h2>
+<p>A rabbit is at the bottom of a staircase. The rabbit can only go up one or  two stairs at the time. How many different ways are there to ascend?</p>
+<p><strong>Solution</strong></p>
+\(f(n) = f(n-1) + f(n-2)\)
+<h2 id="ol_start14_100_light_bulbs"><a href="#ol_start14_100_light_bulbs" class="header-anchor"><ol start="14">
+<li><p>100 light bulbs</p>
+</li>
+</ol>
+</a></h2>
+<p>100 bulbs in a room are off. Person #1 touches every switch. Person #2 touches every even switch. Person #3 touches every switch that is multiple of 3 and so on. At the end of the process, will bulb number \(64\) be on?</p>
+<p><strong>Solution</strong></p>
+<p>You touched bulb \(64\) an odd number of times: 1,2,4,8,16,32. It was off at the beginning so it must be on now.</p>
+<h2 id="ol_start15_n_people_at_a_conference"><a href="#ol_start15_n_people_at_a_conference" class="header-anchor"><ol start="15">
+<li><p>N people at a conference</p>
+</li>
+</ol>
+</a></h2>
+<p>There are \(N\) at a convention. Everyone one of them goes randomly in a room. What is the probability that at least one of them goes to the right room?</p>
+<p><strong>Solution</strong></p>
+<p>The probability that at least one of them goes to the right room is equal to 1 - the probability that no one goes to the right room. Then, we have: \(1 - \frac{n-1}{n}*\frac{n-2}{n-1}*\dots = 1 - \frac{(n-1)!}{n!}\)</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Ludovico Bessi. Last modified: June 12, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Ludovico Bessi. Last modified: June 22, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
     
     
   </body>
