@@ -255,3 +255,21 @@ In general:
 $S(n+1) = S(n) + 1*S(n) + 2S(n) + \dots + 9S(n) = 46S(n)$.
 So we have: $S(n) = 46^{n}$
 Then, the question becomes: what is the last digit of $46^{100}$? All the power of a number ending in $6$ end in $6$.
+
+## 21. Value of $i^i$
+
+What is the value of $i^i$?
+
+**Solution**
+Remember that: $e^{i\theta} = cos(\theta) + i sen(\theta)$.
+So: $e^{i * \frac \pi 2} = i$ and then $i^i = e^{-\frac \pi 2}$.
+
+## 22. Inequality
+
+Show that $\frac{e^x+e^y}{2} \geq e^{\frac{x+y}{2}}$.
+
+**Solution**
+
+Let $a = e^x$ and $b = e^y$. Then, we can write: $e^{\frac{x+y}{2}} = \sqrt{e^x*e^y} = \sqrt{a*b}$
+Then, we have reformulated the problem as:
+$\frac{a+b}{2} \geq \sqrt{a*b}$ which is clearly true.

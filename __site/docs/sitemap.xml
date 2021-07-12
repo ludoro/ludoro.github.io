@@ -2,26 +2,170 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/datastructure/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/algos/heap/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/CV/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/algos/queue/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/recursion/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/index.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/books/index.html</loc>
+    <lastmod>2021-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/algos/greedy/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/math/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/CV/index.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/prefixsum/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/string/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/chip/stat/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/404/index.html</loc>
+    <lastmod>2021-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/linkedlists/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/datastructure/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/Algos/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/dp/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/mathematics/stat/index.html</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/binarysearch/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/contact/index.html</loc>
+    <lastmod>2021-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/unionfind/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/arrays/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/hashtable/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/Math/index.html</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/stack/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/chip/prob/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/chip/MLW/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/recursion/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/blog/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/algos/trees/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -32,740 +176,824 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/divideandconquer/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/chip/linalg/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/blog/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/hashtable/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/unionfind/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/404/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/string/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/binarysearch/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/posts/helloworld/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/backtracking/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/math/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/Math/index.html</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/books/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/prefixsum/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/contact/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/arrays/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/dp/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/Algos/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/linkedlists/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/trees/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/chip/NN/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/mathematics/prob/index.html</loc>
-    <lastmod>2021-06-27</lastmod>
+    <lastmod>2021-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/stack/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/algos/divideandconquer/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/heap/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/algos/queue/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/algos/backtracking/index.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/algos/graphs/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/algos/twopointer/index.html</loc>
-    <lastmod>2021-06-12</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/mathematics/stat/index.html</loc>
-    <lastmod>2021-06-21</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/chip/MLA/index.html</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/datastructure/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/datastructure/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/404/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/CV/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/divideandconquer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/dp/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/Math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/trees/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/prefixsum/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/string/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/recursion/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/posts/helloworld/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/mathematics/prob/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/string/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/queue/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/arrays/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/CV/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/queue/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/prefixsum/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/contact/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/404/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/binarysearch/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/books/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/mathematics/stat/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/prefixsum/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/brainteasers/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/blog/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/arrays/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/blog/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/string/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/posts/helloworld/index.html</loc>
+    <lastmod>2021-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/blog/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/CV/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/trees/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/mathematics/stat/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/backtracking/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/queue/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/backtracking/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/mathematics/brainteasers/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/unionfind/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/heap/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/arrays/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/trees/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/heap/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/contact/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/books/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/recursion/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/stat/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/hashtable/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/datastructure/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/linkedlists/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/books/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/stack/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/prob/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/binarysearch/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/twopointer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/graphs/index/</loc>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/greedy/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/linkedlists/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/trees/index/</loc>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/greedy/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/binarysearch/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/graphs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/heap/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/unionfind/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/divideandconquer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/stack/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/unionfind/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/twopointer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/graphs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/linkedlists/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/graphs/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/hashtable/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/dp/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/stack/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/greedy/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/recursion/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/backtracking/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/posts/helloworld/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/404/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/contact/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/backtracking/index/</loc>
+    <lastmod>2021-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/posts/helloworld/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/algos/hashtable/index/</loc>
-    <lastmod>2021-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/dp/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/mathematics/brainteasers/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/backtracking/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/unionfind/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/heap/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/books/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/trees/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/hashtable/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/CV/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/arrays/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/unionfind/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/hashtable/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/linkedlists/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/posts/helloworld/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/prob/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/string/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/mathematics/stat/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/linkedlists/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/stack/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/graphs/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/greedy/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/heap/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/heap/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/arrays/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/hashtable/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/contact/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/graphs/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/backtracking/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/stat/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/mathematics/brainteasers/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/arrays/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/queue/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/datastructure/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/string/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/linkedlists/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/dp/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/dp/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/contact/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/queue/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/dp/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/blog/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/greedy/index/</loc>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/mathematics/prob/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Math/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/posts/helloworld/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/CV/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/arrays/index/</loc>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Math/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/blog/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/dp/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/prefixsum/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/books/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/stack/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/books/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/binarysearch/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/string/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/datastructure/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/hashtable/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/math/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/divideandconquer/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/queue/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/mathematics/prob/index/</loc>
+    <lastmod>2021-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/divideandconquer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/binarysearch/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/404/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/binarysearch/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/mathematics/prob/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/backtracking/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/string/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/math/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/404/</loc>
+    <lastmod>2021-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/twopointer/index/</loc>
-    <lastmod>2021-06-24</lastmod>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/Math/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/stack/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/recursion/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/unionfind/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/recursion/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/prefixsum/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/twopointer/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/404/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/linkedlists/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/CV/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/posts/helloworld/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/CV/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/mathematics/brainteasers/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/math/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/unionfind/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/prefixsum/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/404/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/heap/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/contact/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Math/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/blog/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/recursion/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/stack/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/trees/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/mathematics/brainteasers/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/trees/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/contact/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/mathematics/stat/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/binarysearch/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/datastructure/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/divideandconquer/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/greedy/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/graphs/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/twopointer/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/datastructure/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/divideandconquer/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/math/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/books/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/docs/Algos/recursion/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/mathematics/stat/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/algos/prefixsum/index/</loc>
+    <lastmod>2021-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/docs/Algos/twopointer/index/</loc>
+    <lastmod>2021-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>ludoro.github.io/ludoro.github.io/docs/docs/Algos/queue/index/</loc>
+    <lastmod>2021-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

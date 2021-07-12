@@ -960,3 +960,58 @@ $F_Y(y) = \mathbb{P}(Y \leq y) = 1 - \mathbb{P}(\min\{X_1,\dots,X_n\} > y) =
 1 - (1 - x)^n$
 Then, $f_Y(y) = n(1-y)^{n-1}$.
 Finally: $\mathbb{E}[Y] = \int_0^1 y*n(1-y)^{n-1}dy = \frac{1}{n-1}$.
+
+## 74. Exponential prob
+Let X and Y be independent exponential random variables with mean $6$ and $8$ respectively.
+What is the probability that $X > Y$?
+
+**Solution**
+
+The joint distribution is $f_{X,Y}(x,y) = \frac{1}{6}e^{\frac{x}{6}}*\frac{1}{8}e^{\frac{y}{8}}$.
+
+Then: $\mathbb{P}(X > Y) = \int_0^\infty \int_0^x f_{X,Y}(x,y) dx dx$.
+
+## 75. Point in disk
+A point is chosen uniformly at random in the disk. What is the expected value of
+the distance between the point and the center of the disk?
+
+**Solution**
+
+$d = \sqrt{x^2 + y^2}$. We are interested in $\mathbb{E}[d]$. Using uniformity,
+the density function is: $f_{X,Y}(x,y) = \frac{1}{\pi}$ if $(x,y) \in D_1(0)$
+Then:
+
+$\mathbb{E}[d] = \int \int_{D} \sqrt{x^2+y^2}*\frac{1}{\pi} dx dy$
+Using polar coordinates: $ x = r \cos{\theta}$ and $ y = r \sin{\theta}$, we have:
+
+$\mathbb{E}[d] = \int_{0}^1 \int_0^{2\pi} r * \sqrt{r^2*cos^2\theta + r^2sin(\theta)}\frac{1}{\pi} d\theta dr = \frac{2}{3}$
+
+## 76. Expected number of throws until head.
+
+You throw a coin. What is the expected number of throws until you get the first head?
+
+**Solution**
+
+$\mathbb{E}[X] = \frac{1}{2} + \frac{1}{2}(1+\mathbb{E}[X])$.
+
+## 77. Expected number of throws until two heads
+You throw a coin. What is the expected number of throws until you get two heads
+in a row?
+
+**Solution**
+We can solve conditioning on the first toss (already done), or observing that:
+if we get tail we reset with an additional toss. If we get head we either get another head and stop of
+get a tail and reset with two additional losses. So, we get:
+
+$\mathbb{E}[X] = (1-p)*(1+\mathbb{E}[X]) + p * p (2) + p(1-p)*(2+\mathbb{E}[X])$
+
+## 78. Subset probability
+
+Given a set $X$ with $n$ elements, choose two subsets A and B at random. What is
+the probability that A is a subset of B?
+
+
+**Solution**
+There are four possible sets: $A \setminus B$, $B \setminus A$, $A \cap B$ and $X \setminus ( A \cup B)$.
+For A to be a subset of B, the set $A \setminus B$ must be empty. This happens with probability
+$(\frac{3}{4})^n$.

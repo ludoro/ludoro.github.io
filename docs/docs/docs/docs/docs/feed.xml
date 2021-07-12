@@ -23,15 +23,15 @@
 
 <item>
   <title>
-    <![CDATA[  Blog  ]]>
+    <![CDATA[  My CV  ]]>
   </title>
-  <link> ludoro.github.io/ludoro.github.io/blog/index.html </link>
-  <guid> ludoro.github.io/ludoro.github.io/blog/index.html </guid>
+  <link> ludoro.github.io/ludoro.github.io/CV/index.html </link>
+  <guid> ludoro.github.io/ludoro.github.io/CV/index.html </guid>
   <description>
-    <![CDATA[  Ludovico Bessi space  ]]>
+    <![CDATA[  Everything math.  ]]>
   </description>  
     
-  <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>  
+  <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -42,15 +42,15 @@
 
 <item>
   <title>
-    <![CDATA[  Home  ]]>
+    <![CDATA[  Blog  ]]>
   </title>
-  <link> ludoro.github.io/ludoro.github.io/index.html </link>
-  <guid> ludoro.github.io/ludoro.github.io/index.html </guid>
+  <link> ludoro.github.io/ludoro.github.io/blog/index.html </link>
+  <guid> ludoro.github.io/ludoro.github.io/blog/index.html </guid>
   <description>
     <![CDATA[  Ludovico Bessi space  ]]>
   </description>  
     
-  <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>  
+  <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -69,26 +69,7 @@
     <![CDATA[  Everything Math  ]]>
   </description>  
     
-  <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Ludovico Bessi</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  My CV  ]]>
-  </title>
-  <link> ludoro.github.io/ludoro.github.io/CV/index.html </link>
-  <guid> ludoro.github.io/ludoro.github.io/CV/index.html </guid>
-  <description>
-    <![CDATA[  Everything math.  ]]>
-  </description>  
-    
-  <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>  
+  <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -107,7 +88,26 @@
     <![CDATA[  Ludovico Bessi space  ]]>
   </description>  
     
-  <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>  
+  <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ludovico Bessi</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Home  ]]>
+  </title>
+  <link> ludoro.github.io/ludoro.github.io/index.html </link>
+  <guid> ludoro.github.io/ludoro.github.io/index.html </guid>
+  <description>
+    <![CDATA[  Ludovico Bessi space  ]]>
+  </description>  
+    
+  <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
